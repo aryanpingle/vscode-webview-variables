@@ -1,0 +1,19 @@
+{
+  "name": "vscode-webview-variables",
+  "version": "1.0.0",
+  "description": "A list of CSS variable names used in a VSCode webview.",
+  "keywords": [
+    "vscode",
+    "vscode extension"
+  ],
+  "author": "Aryan Pingle <realaryanpingle@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node esbuild.js --production",
+    "test": "node esbuild.js --production && node test/test.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  }
+}
