@@ -8,8 +8,7 @@ async function main() {
     entryPoints: ["src/index.ts"],
     bundle: true,
     format: "cjs",
-    minify: production,
-
+    minify: false,
     platform: "node",
     outdir: "dist",
     logLevel: "silent",

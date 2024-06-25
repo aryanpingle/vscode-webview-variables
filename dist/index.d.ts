@@ -1,3 +1,14 @@
+/**
+ * An object with a 1:1 mapping of a short name to an in-built VSCode CSS variable name.
+ *
+ * Each key of the object is simply the name of the CSS variable without the "--vscode-" prefix.
+ *
+ * @example
+ * // returns "--vscode-foreground"
+ * VscodeCSSVariables.foreground
+ * // returns "--vscode-textLink-foreground"
+ * VscodeCSSVariables["textLink-foreground"]
+ */
 export declare const VscodeCSSVariables: {
 foreground: "--vscode-foreground";
 disabledForeground: "--vscode-disabledForeground";
@@ -901,5 +912,27 @@ focusBorder: "--vscode-focusBorder";
 "gitDecoration-submoduleResourceForeground":
   "--vscode-gitDecoration-submoduleResourceForeground",
 };
+
+/**
+ * Check if a given string satisfies the criteria to be a CSS variable name.
+ *
+ * This is NOT compliant with the CSS specifications for custom properties,
+ * so DO NOT use this in uncontrolled environments.
+ */
 export declare function isCSSVariable(str: string): boolean;
+
+/**
+ * Get the CSS expression using the given variableName with optional fallback variables or constants.
+ *
+ * @example
+ * // returns "var(--custom-var)"
+ * createCSSVariable("--custom-var")
+ * // returns "var(--custom-var, red)"
+ * createCSSVariable("--custom-var", "red")
+ * // returns "var(--custom-var, var(--another-var, red))"
+ * createCSSVariable("--custom-var", "--another-var", "red")
+ *
+ * @param variableName Any syntactically valid CSS variable name
+ * @param fallbacks An array of CSS variable names or constants
+ */
 export declare function createCSSVariable(variableName: string, ...fallbacks: string[]): string;
