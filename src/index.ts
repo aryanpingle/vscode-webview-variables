@@ -943,6 +943,12 @@ export function createCSSVariable(
   variableName: string,
   ...fallbacks: string[]
 ): string {
+  // If the given variable name is not a valid CSS variable, just return it as-is.
+  if(!isCSSVariable(variableName)) {
+    return variableName;
+  }
+
+  // If no fallbacks are defined, then this is trivial.
   if (fallbacks === undefined || fallbacks.length === 0)
     return `var(${variableName})`;
 

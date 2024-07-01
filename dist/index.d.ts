@@ -923,8 +923,12 @@ export declare function isCSSVariable(str: string): boolean;
 
 /**
  * Get the CSS expression using the given variableName with optional fallback variables or constants.
+ * 
+ * Internally uses `isCSSVariable` to check if a given value is a CSS variable or not.
  *
  * @example
+ * // returns "red"
+ * createCSSVariable("red")
  * // returns "var(--custom-var)"
  * createCSSVariable("--custom-var")
  * // returns "var(--custom-var, red)"

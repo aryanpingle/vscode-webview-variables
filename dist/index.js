@@ -718,6 +718,9 @@ function isCSSVariable(str) {
   return str.startsWith("--");
 }
 function createCSSVariable(variableName, ...fallbacks) {
+  if (!isCSSVariable(variableName)) {
+    return variableName;
+  }
   if (fallbacks === void 0 || fallbacks.length === 0)
     return `var(${variableName})`;
   let firstConstantIdx = -1;

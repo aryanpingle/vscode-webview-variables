@@ -31,6 +31,7 @@ function test(actual, expected) {
   }
 }
 
+test(createCSSVariable("red"), "red");
 test(createCSSVariable("--var-1"), "var(--var-1)");
 test(createCSSVariable("--var-1", "red"), "var(--var-1, red)");
 test(createCSSVariable("--var-1", "--var-2"), "var(--var-1, var(--var-2))");
