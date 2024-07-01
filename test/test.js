@@ -1,7 +1,8 @@
 const {
+  VscodeColors,
   createCSSVariable,
   isCSSVariable,
-} = require("../dist/index");
+} = require("../dist");
 
 const Colors = {
   GREEN: "\x1b[32m",
@@ -31,6 +32,9 @@ function test(actual, expected) {
   }
 }
 
+test(typeof(VscodeColors["activityBar-border"]), "object")
+test(VscodeColors["activityBar-border"].cssName, "--vscode-activityBar-border")
+test(VscodeColors["activityBar-border"].themeName, "activityBar.border")
 test(createCSSVariable("red"), "red");
 test(createCSSVariable("--var-1"), "var(--var-1)");
 test(createCSSVariable("--var-1", "red"), "var(--var-1, red)");

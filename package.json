@@ -9,11 +9,13 @@
   "author": "Aryan Pingle <realaryanpingle@gmail.com>",
   "license": "ISC",
   "main": "dist/index.js",
+  "type": "commonjs",
   "scripts": {
-    "build": "node esbuild.js --production",
-    "test": "node esbuild.js --production && node test/test.js"
+    "build": "node src/create-vscode-colors.js && node esbuild.js --production",
+    "test": "npm run build && node test/test.js"
   },
   "devDependencies": {
+    "@types/node": "^20.14.9",
     "esbuild": "^0.21.5"
   }
 }
