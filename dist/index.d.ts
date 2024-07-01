@@ -1,5 +1,11 @@
+export interface VscodeColor {
+  cssName: string;
+  themeName: string;
+}
+
 /**
- * Each key of this object maps to an object containing the CSS variable name and VSCode Theme Color name.
+ * Each key of this object maps to an object of type `VscodeColor` containing the CSS
+ * variable name and VSCode Theme Color name.
  *
  * @example
  * VscodeCSSVariables.foreground = {
