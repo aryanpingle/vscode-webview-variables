@@ -1,8 +1,7 @@
 export interface VscodeColor {
-  cssName: string;
-  themeName: string;
+    cssName: string;
+    themeName: string;
 }
-
 /**
  * Each key of this object maps to an object of type `VscodeColor` containing the CSS
  * variable name and VSCode Theme Color name.
@@ -19,2753 +18,2752 @@ export interface VscodeColor {
  *
  * @see https://code.visualstudio.com/api/references/theme-color
  */
-export declare const VscodeColors = {
-  "actionBar-toggledBackground": {
-    "cssName": "--vscode-actionBar-toggledBackground",
-    "themeName": "actionBar.toggledBackground"
-  },
-  "activityBar-activeBorder": {
-    "cssName": "--vscode-activityBar-activeBorder",
-    "themeName": "activityBar.activeBorder"
-  },
-  "activityBar-background": {
-    "cssName": "--vscode-activityBar-background",
-    "themeName": "activityBar.background"
-  },
-  "activityBar-border": {
-    "cssName": "--vscode-activityBar-border",
-    "themeName": "activityBar.border"
-  },
-  "activityBar-dropBorder": {
-    "cssName": "--vscode-activityBar-dropBorder",
-    "themeName": "activityBar.dropBorder"
-  },
-  "activityBar-foreground": {
-    "cssName": "--vscode-activityBar-foreground",
-    "themeName": "activityBar.foreground"
-  },
-  "activityBar-inactiveForeground": {
-    "cssName": "--vscode-activityBar-inactiveForeground",
-    "themeName": "activityBar.inactiveForeground"
-  },
-  "activityBarBadge-background": {
-    "cssName": "--vscode-activityBarBadge-background",
-    "themeName": "activityBarBadge.background"
-  },
-  "activityBarBadge-foreground": {
-    "cssName": "--vscode-activityBarBadge-foreground",
-    "themeName": "activityBarBadge.foreground"
-  },
-  "activityBarTop-activeBorder": {
-    "cssName": "--vscode-activityBarTop-activeBorder",
-    "themeName": "activityBarTop.activeBorder"
-  },
-  "activityBarTop-dropBorder": {
-    "cssName": "--vscode-activityBarTop-dropBorder",
-    "themeName": "activityBarTop.dropBorder"
-  },
-  "activityBarTop-foreground": {
-    "cssName": "--vscode-activityBarTop-foreground",
-    "themeName": "activityBarTop.foreground"
-  },
-  "activityBarTop-inactiveForeground": {
-    "cssName": "--vscode-activityBarTop-inactiveForeground",
-    "themeName": "activityBarTop.inactiveForeground"
-  },
-  "badge-background": {
-    "cssName": "--vscode-badge-background",
-    "themeName": "badge.background"
-  },
-  "badge-foreground": {
-    "cssName": "--vscode-badge-foreground",
-    "themeName": "badge.foreground"
-  },
-  "banner-background": {
-    "cssName": "--vscode-banner-background",
-    "themeName": "banner.background"
-  },
-  "banner-foreground": {
-    "cssName": "--vscode-banner-foreground",
-    "themeName": "banner.foreground"
-  },
-  "banner-iconForeground": {
-    "cssName": "--vscode-banner-iconForeground",
-    "themeName": "banner.iconForeground"
-  },
-  "breadcrumb-activeSelectionForeground": {
-    "cssName": "--vscode-breadcrumb-activeSelectionForeground",
-    "themeName": "breadcrumb.activeSelectionForeground"
-  },
-  "breadcrumb-background": {
-    "cssName": "--vscode-breadcrumb-background",
-    "themeName": "breadcrumb.background"
-  },
-  "breadcrumb-focusForeground": {
-    "cssName": "--vscode-breadcrumb-focusForeground",
-    "themeName": "breadcrumb.focusForeground"
-  },
-  "breadcrumb-foreground": {
-    "cssName": "--vscode-breadcrumb-foreground",
-    "themeName": "breadcrumb.foreground"
-  },
-  "breadcrumbPicker-background": {
-    "cssName": "--vscode-breadcrumbPicker-background",
-    "themeName": "breadcrumbPicker.background"
-  },
-  "button-background": {
-    "cssName": "--vscode-button-background",
-    "themeName": "button.background"
-  },
-  "button-border": {
-    "cssName": "--vscode-button-border",
-    "themeName": "button.border"
-  },
-  "button-foreground": {
-    "cssName": "--vscode-button-foreground",
-    "themeName": "button.foreground"
-  },
-  "button-hoverBackground": {
-    "cssName": "--vscode-button-hoverBackground",
-    "themeName": "button.hoverBackground"
-  },
-  "button-secondaryBackground": {
-    "cssName": "--vscode-button-secondaryBackground",
-    "themeName": "button.secondaryBackground"
-  },
-  "button-secondaryForeground": {
-    "cssName": "--vscode-button-secondaryForeground",
-    "themeName": "button.secondaryForeground"
-  },
-  "button-secondaryHoverBackground": {
-    "cssName": "--vscode-button-secondaryHoverBackground",
-    "themeName": "button.secondaryHoverBackground"
-  },
-  "button-separator": {
-    "cssName": "--vscode-button-separator",
-    "themeName": "button.separator"
-  },
-  "charts-blue": {
-    "cssName": "--vscode-charts-blue",
-    "themeName": "charts.blue"
-  },
-  "charts-foreground": {
-    "cssName": "--vscode-charts-foreground",
-    "themeName": "charts.foreground"
-  },
-  "charts-green": {
-    "cssName": "--vscode-charts-green",
-    "themeName": "charts.green"
-  },
-  "charts-lines": {
-    "cssName": "--vscode-charts-lines",
-    "themeName": "charts.lines"
-  },
-  "charts-orange": {
-    "cssName": "--vscode-charts-orange",
-    "themeName": "charts.orange"
-  },
-  "charts-purple": {
-    "cssName": "--vscode-charts-purple",
-    "themeName": "charts.purple"
-  },
-  "charts-red": {
-    "cssName": "--vscode-charts-red",
-    "themeName": "charts.red"
-  },
-  "charts-yellow": {
-    "cssName": "--vscode-charts-yellow",
-    "themeName": "charts.yellow"
-  },
-  "chat-avatarBackground": {
-    "cssName": "--vscode-chat-avatarBackground",
-    "themeName": "chat.avatarBackground"
-  },
-  "chat-avatarForeground": {
-    "cssName": "--vscode-chat-avatarForeground",
-    "themeName": "chat.avatarForeground"
-  },
-  "chat-requestBackground": {
-    "cssName": "--vscode-chat-requestBackground",
-    "themeName": "chat.requestBackground"
-  },
-  "chat-requestBorder": {
-    "cssName": "--vscode-chat-requestBorder",
-    "themeName": "chat.requestBorder"
-  },
-  "chat-slashCommandBackground": {
-    "cssName": "--vscode-chat-slashCommandBackground",
-    "themeName": "chat.slashCommandBackground"
-  },
-  "chat-slashCommandForeground": {
-    "cssName": "--vscode-chat-slashCommandForeground",
-    "themeName": "chat.slashCommandForeground"
-  },
-  "checkbox-background": {
-    "cssName": "--vscode-checkbox-background",
-    "themeName": "checkbox.background"
-  },
-  "checkbox-border": {
-    "cssName": "--vscode-checkbox-border",
-    "themeName": "checkbox.border"
-  },
-  "checkbox-foreground": {
-    "cssName": "--vscode-checkbox-foreground",
-    "themeName": "checkbox.foreground"
-  },
-  "checkbox-selectBackground": {
-    "cssName": "--vscode-checkbox-selectBackground",
-    "themeName": "checkbox.selectBackground"
-  },
-  "checkbox-selectBorder": {
-    "cssName": "--vscode-checkbox-selectBorder",
-    "themeName": "checkbox.selectBorder"
-  },
-  "commandCenter-activeBackground": {
-    "cssName": "--vscode-commandCenter-activeBackground",
-    "themeName": "commandCenter.activeBackground"
-  },
-  "commandCenter-activeBorder": {
-    "cssName": "--vscode-commandCenter-activeBorder",
-    "themeName": "commandCenter.activeBorder"
-  },
-  "commandCenter-activeForeground": {
-    "cssName": "--vscode-commandCenter-activeForeground",
-    "themeName": "commandCenter.activeForeground"
-  },
-  "commandCenter-background": {
-    "cssName": "--vscode-commandCenter-background",
-    "themeName": "commandCenter.background"
-  },
-  "commandCenter-border": {
-    "cssName": "--vscode-commandCenter-border",
-    "themeName": "commandCenter.border"
-  },
-  "commandCenter-debuggingBackground": {
-    "cssName": "--vscode-commandCenter-debuggingBackground",
-    "themeName": "commandCenter.debuggingBackground"
-  },
-  "commandCenter-foreground": {
-    "cssName": "--vscode-commandCenter-foreground",
-    "themeName": "commandCenter.foreground"
-  },
-  "commandCenter-inactiveBorder": {
-    "cssName": "--vscode-commandCenter-inactiveBorder",
-    "themeName": "commandCenter.inactiveBorder"
-  },
-  "commandCenter-inactiveForeground": {
-    "cssName": "--vscode-commandCenter-inactiveForeground",
-    "themeName": "commandCenter.inactiveForeground"
-  },
-  "commentsView-resolvedIcon": {
-    "cssName": "--vscode-commentsView-resolvedIcon",
-    "themeName": "commentsView.resolvedIcon"
-  },
-  "commentsView-unresolvedIcon": {
-    "cssName": "--vscode-commentsView-unresolvedIcon",
-    "themeName": "commentsView.unresolvedIcon"
-  },
-  "debugConsole-errorForeground": {
-    "cssName": "--vscode-debugConsole-errorForeground",
-    "themeName": "debugConsole.errorForeground"
-  },
-  "debugConsole-infoForeground": {
-    "cssName": "--vscode-debugConsole-infoForeground",
-    "themeName": "debugConsole.infoForeground"
-  },
-  "debugConsole-sourceForeground": {
-    "cssName": "--vscode-debugConsole-sourceForeground",
-    "themeName": "debugConsole.sourceForeground"
-  },
-  "debugConsole-warningForeground": {
-    "cssName": "--vscode-debugConsole-warningForeground",
-    "themeName": "debugConsole.warningForeground"
-  },
-  "debugConsoleInputIcon-foreground": {
-    "cssName": "--vscode-debugConsoleInputIcon-foreground",
-    "themeName": "debugConsoleInputIcon.foreground"
-  },
-  "debugExceptionWidget-background": {
-    "cssName": "--vscode-debugExceptionWidget-background",
-    "themeName": "debugExceptionWidget.background"
-  },
-  "debugExceptionWidget-border": {
-    "cssName": "--vscode-debugExceptionWidget-border",
-    "themeName": "debugExceptionWidget.border"
-  },
-  "debugIcon-breakpointCurrentStackframeForeground": {
-    "cssName": "--vscode-debugIcon-breakpointCurrentStackframeForeground",
-    "themeName": "debugIcon.breakpointCurrentStackframeForeground"
-  },
-  "debugIcon-breakpointDisabledForeground": {
-    "cssName": "--vscode-debugIcon-breakpointDisabledForeground",
-    "themeName": "debugIcon.breakpointDisabledForeground"
-  },
-  "debugIcon-breakpointForeground": {
-    "cssName": "--vscode-debugIcon-breakpointForeground",
-    "themeName": "debugIcon.breakpointForeground"
-  },
-  "debugIcon-breakpointStackframeForeground": {
-    "cssName": "--vscode-debugIcon-breakpointStackframeForeground",
-    "themeName": "debugIcon.breakpointStackframeForeground"
-  },
-  "debugIcon-breakpointUnverifiedForeground": {
-    "cssName": "--vscode-debugIcon-breakpointUnverifiedForeground",
-    "themeName": "debugIcon.breakpointUnverifiedForeground"
-  },
-  "debugIcon-continueForeground": {
-    "cssName": "--vscode-debugIcon-continueForeground",
-    "themeName": "debugIcon.continueForeground"
-  },
-  "debugIcon-disconnectForeground": {
-    "cssName": "--vscode-debugIcon-disconnectForeground",
-    "themeName": "debugIcon.disconnectForeground"
-  },
-  "debugIcon-pauseForeground": {
-    "cssName": "--vscode-debugIcon-pauseForeground",
-    "themeName": "debugIcon.pauseForeground"
-  },
-  "debugIcon-restartForeground": {
-    "cssName": "--vscode-debugIcon-restartForeground",
-    "themeName": "debugIcon.restartForeground"
-  },
-  "debugIcon-startForeground": {
-    "cssName": "--vscode-debugIcon-startForeground",
-    "themeName": "debugIcon.startForeground"
-  },
-  "debugIcon-stepBackForeground": {
-    "cssName": "--vscode-debugIcon-stepBackForeground",
-    "themeName": "debugIcon.stepBackForeground"
-  },
-  "debugIcon-stepIntoForeground": {
-    "cssName": "--vscode-debugIcon-stepIntoForeground",
-    "themeName": "debugIcon.stepIntoForeground"
-  },
-  "debugIcon-stepOutForeground": {
-    "cssName": "--vscode-debugIcon-stepOutForeground",
-    "themeName": "debugIcon.stepOutForeground"
-  },
-  "debugIcon-stepOverForeground": {
-    "cssName": "--vscode-debugIcon-stepOverForeground",
-    "themeName": "debugIcon.stepOverForeground"
-  },
-  "debugIcon-stopForeground": {
-    "cssName": "--vscode-debugIcon-stopForeground",
-    "themeName": "debugIcon.stopForeground"
-  },
-  "debugTokenExpression-boolean": {
-    "cssName": "--vscode-debugTokenExpression-boolean",
-    "themeName": "debugTokenExpression.boolean"
-  },
-  "debugTokenExpression-error": {
-    "cssName": "--vscode-debugTokenExpression-error",
-    "themeName": "debugTokenExpression.error"
-  },
-  "debugTokenExpression-name": {
-    "cssName": "--vscode-debugTokenExpression-name",
-    "themeName": "debugTokenExpression.name"
-  },
-  "debugTokenExpression-number": {
-    "cssName": "--vscode-debugTokenExpression-number",
-    "themeName": "debugTokenExpression.number"
-  },
-  "debugTokenExpression-string": {
-    "cssName": "--vscode-debugTokenExpression-string",
-    "themeName": "debugTokenExpression.string"
-  },
-  "debugTokenExpression-value": {
-    "cssName": "--vscode-debugTokenExpression-value",
-    "themeName": "debugTokenExpression.value"
-  },
-  "debugToolBar-background": {
-    "cssName": "--vscode-debugToolBar-background",
-    "themeName": "debugToolBar.background"
-  },
-  "debugView-exceptionLabelBackground": {
-    "cssName": "--vscode-debugView-exceptionLabelBackground",
-    "themeName": "debugView.exceptionLabelBackground"
-  },
-  "debugView-exceptionLabelForeground": {
-    "cssName": "--vscode-debugView-exceptionLabelForeground",
-    "themeName": "debugView.exceptionLabelForeground"
-  },
-  "debugView-stateLabelBackground": {
-    "cssName": "--vscode-debugView-stateLabelBackground",
-    "themeName": "debugView.stateLabelBackground"
-  },
-  "debugView-stateLabelForeground": {
-    "cssName": "--vscode-debugView-stateLabelForeground",
-    "themeName": "debugView.stateLabelForeground"
-  },
-  "debugView-valueChangedHighlight": {
-    "cssName": "--vscode-debugView-valueChangedHighlight",
-    "themeName": "debugView.valueChangedHighlight"
-  },
-  "descriptionForeground": {
-    "cssName": "--vscode-descriptionForeground",
-    "themeName": "descriptionForeground"
-  },
-  "diffEditor-diagonalFill": {
-    "cssName": "--vscode-diffEditor-diagonalFill",
-    "themeName": "diffEditor.diagonalFill"
-  },
-  "diffEditor-insertedLineBackground": {
-    "cssName": "--vscode-diffEditor-insertedLineBackground",
-    "themeName": "diffEditor.insertedLineBackground"
-  },
-  "diffEditor-insertedTextBackground": {
-    "cssName": "--vscode-diffEditor-insertedTextBackground",
-    "themeName": "diffEditor.insertedTextBackground"
-  },
-  "diffEditor-move-border": {
-    "cssName": "--vscode-diffEditor-move-border",
-    "themeName": "diffEditor.move.border"
-  },
-  "diffEditor-moveActive-border": {
-    "cssName": "--vscode-diffEditor-moveActive-border",
-    "themeName": "diffEditor.moveActive.border"
-  },
-  "diffEditor-removedLineBackground": {
-    "cssName": "--vscode-diffEditor-removedLineBackground",
-    "themeName": "diffEditor.removedLineBackground"
-  },
-  "diffEditor-removedTextBackground": {
-    "cssName": "--vscode-diffEditor-removedTextBackground",
-    "themeName": "diffEditor.removedTextBackground"
-  },
-  "diffEditor-unchangedCodeBackground": {
-    "cssName": "--vscode-diffEditor-unchangedCodeBackground",
-    "themeName": "diffEditor.unchangedCodeBackground"
-  },
-  "diffEditor-unchangedRegionBackground": {
-    "cssName": "--vscode-diffEditor-unchangedRegionBackground",
-    "themeName": "diffEditor.unchangedRegionBackground"
-  },
-  "diffEditor-unchangedRegionForeground": {
-    "cssName": "--vscode-diffEditor-unchangedRegionForeground",
-    "themeName": "diffEditor.unchangedRegionForeground"
-  },
-  "diffEditor-unchangedRegionShadow": {
-    "cssName": "--vscode-diffEditor-unchangedRegionShadow",
-    "themeName": "diffEditor.unchangedRegionShadow"
-  },
-  "disabledForeground": {
-    "cssName": "--vscode-disabledForeground",
-    "themeName": "disabledForeground"
-  },
-  "dropdown-background": {
-    "cssName": "--vscode-dropdown-background",
-    "themeName": "dropdown.background"
-  },
-  "dropdown-border": {
-    "cssName": "--vscode-dropdown-border",
-    "themeName": "dropdown.border"
-  },
-  "dropdown-foreground": {
-    "cssName": "--vscode-dropdown-foreground",
-    "themeName": "dropdown.foreground"
-  },
-  "dropdown-listBackground": {
-    "cssName": "--vscode-dropdown-listBackground",
-    "themeName": "dropdown.listBackground"
-  },
-  "editor-background": {
-    "cssName": "--vscode-editor-background",
-    "themeName": "editor.background"
-  },
-  "editor-findMatchBackground": {
-    "cssName": "--vscode-editor-findMatchBackground",
-    "themeName": "editor.findMatchBackground"
-  },
-  "editor-findMatchHighlightBackground": {
-    "cssName": "--vscode-editor-findMatchHighlightBackground",
-    "themeName": "editor.findMatchHighlightBackground"
-  },
-  "editor-findRangeHighlightBackground": {
-    "cssName": "--vscode-editor-findRangeHighlightBackground",
-    "themeName": "editor.findRangeHighlightBackground"
-  },
-  "editor-focusedStackFrameHighlightBackground": {
-    "cssName": "--vscode-editor-focusedStackFrameHighlightBackground",
-    "themeName": "editor.focusedStackFrameHighlightBackground"
-  },
-  "editor-foldBackground": {
-    "cssName": "--vscode-editor-foldBackground",
-    "themeName": "editor.foldBackground"
-  },
-  "editor-foreground": {
-    "cssName": "--vscode-editor-foreground",
-    "themeName": "editor.foreground"
-  },
-  "editor-hoverHighlightBackground": {
-    "cssName": "--vscode-editor-hoverHighlightBackground",
-    "themeName": "editor.hoverHighlightBackground"
-  },
-  "editor-inactiveSelectionBackground": {
-    "cssName": "--vscode-editor-inactiveSelectionBackground",
-    "themeName": "editor.inactiveSelectionBackground"
-  },
-  "editor-inlineValuesBackground": {
-    "cssName": "--vscode-editor-inlineValuesBackground",
-    "themeName": "editor.inlineValuesBackground"
-  },
-  "editor-inlineValuesForeground": {
-    "cssName": "--vscode-editor-inlineValuesForeground",
-    "themeName": "editor.inlineValuesForeground"
-  },
-  "editor-lineHighlightBorder": {
-    "cssName": "--vscode-editor-lineHighlightBorder",
-    "themeName": "editor.lineHighlightBorder"
-  },
-  "editor-linkedEditingBackground": {
-    "cssName": "--vscode-editor-linkedEditingBackground",
-    "themeName": "editor.linkedEditingBackground"
-  },
-  "editor-rangeHighlightBackground": {
-    "cssName": "--vscode-editor-rangeHighlightBackground",
-    "themeName": "editor.rangeHighlightBackground"
-  },
-  "editor-selectionBackground": {
-    "cssName": "--vscode-editor-selectionBackground",
-    "themeName": "editor.selectionBackground"
-  },
-  "editor-selectionHighlightBackground": {
-    "cssName": "--vscode-editor-selectionHighlightBackground",
-    "themeName": "editor.selectionHighlightBackground"
-  },
-  "editor-snippetFinalTabstopHighlightBorder": {
-    "cssName": "--vscode-editor-snippetFinalTabstopHighlightBorder",
-    "themeName": "editor.snippetFinalTabstopHighlightBorder"
-  },
-  "editor-snippetTabstopHighlightBackground": {
-    "cssName": "--vscode-editor-snippetTabstopHighlightBackground",
-    "themeName": "editor.snippetTabstopHighlightBackground"
-  },
-  "editor-stackFrameHighlightBackground": {
-    "cssName": "--vscode-editor-stackFrameHighlightBackground",
-    "themeName": "editor.stackFrameHighlightBackground"
-  },
-  "editor-symbolHighlightBackground": {
-    "cssName": "--vscode-editor-symbolHighlightBackground",
-    "themeName": "editor.symbolHighlightBackground"
-  },
-  "editor-wordHighlightBackground": {
-    "cssName": "--vscode-editor-wordHighlightBackground",
-    "themeName": "editor.wordHighlightBackground"
-  },
-  "editor-wordHighlightStrongBackground": {
-    "cssName": "--vscode-editor-wordHighlightStrongBackground",
-    "themeName": "editor.wordHighlightStrongBackground"
-  },
-  "editor-wordHighlightTextBackground": {
-    "cssName": "--vscode-editor-wordHighlightTextBackground",
-    "themeName": "editor.wordHighlightTextBackground"
-  },
-  "editorActiveLineNumber-foreground": {
-    "cssName": "--vscode-editorActiveLineNumber-foreground",
-    "themeName": "editorActiveLineNumber.foreground"
-  },
-  "editorBracketHighlight-foreground1": {
-    "cssName": "--vscode-editorBracketHighlight-foreground1",
-    "themeName": "editorBracketHighlight.foreground1"
-  },
-  "editorBracketHighlight-foreground2": {
-    "cssName": "--vscode-editorBracketHighlight-foreground2",
-    "themeName": "editorBracketHighlight.foreground2"
-  },
-  "editorBracketHighlight-foreground3": {
-    "cssName": "--vscode-editorBracketHighlight-foreground3",
-    "themeName": "editorBracketHighlight.foreground3"
-  },
-  "editorBracketHighlight-foreground4": {
-    "cssName": "--vscode-editorBracketHighlight-foreground4",
-    "themeName": "editorBracketHighlight.foreground4"
-  },
-  "editorBracketHighlight-foreground5": {
-    "cssName": "--vscode-editorBracketHighlight-foreground5",
-    "themeName": "editorBracketHighlight.foreground5"
-  },
-  "editorBracketHighlight-foreground6": {
-    "cssName": "--vscode-editorBracketHighlight-foreground6",
-    "themeName": "editorBracketHighlight.foreground6"
-  },
-  "editorBracketHighlight-unexpectedBracket-foreground": {
-    "cssName": "--vscode-editorBracketHighlight-unexpectedBracket-foreground",
-    "themeName": "editorBracketHighlight.unexpectedBracket.foreground"
-  },
-  "editorBracketMatch-background": {
-    "cssName": "--vscode-editorBracketMatch-background",
-    "themeName": "editorBracketMatch.background"
-  },
-  "editorBracketMatch-border": {
-    "cssName": "--vscode-editorBracketMatch-border",
-    "themeName": "editorBracketMatch.border"
-  },
-  "editorBracketPairGuide-activeBackground1": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground1",
-    "themeName": "editorBracketPairGuide.activeBackground1"
-  },
-  "editorBracketPairGuide-activeBackground2": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground2",
-    "themeName": "editorBracketPairGuide.activeBackground2"
-  },
-  "editorBracketPairGuide-activeBackground3": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground3",
-    "themeName": "editorBracketPairGuide.activeBackground3"
-  },
-  "editorBracketPairGuide-activeBackground4": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground4",
-    "themeName": "editorBracketPairGuide.activeBackground4"
-  },
-  "editorBracketPairGuide-activeBackground5": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground5",
-    "themeName": "editorBracketPairGuide.activeBackground5"
-  },
-  "editorBracketPairGuide-activeBackground6": {
-    "cssName": "--vscode-editorBracketPairGuide-activeBackground6",
-    "themeName": "editorBracketPairGuide.activeBackground6"
-  },
-  "editorBracketPairGuide-background1": {
-    "cssName": "--vscode-editorBracketPairGuide-background1",
-    "themeName": "editorBracketPairGuide.background1"
-  },
-  "editorBracketPairGuide-background2": {
-    "cssName": "--vscode-editorBracketPairGuide-background2",
-    "themeName": "editorBracketPairGuide.background2"
-  },
-  "editorBracketPairGuide-background3": {
-    "cssName": "--vscode-editorBracketPairGuide-background3",
-    "themeName": "editorBracketPairGuide.background3"
-  },
-  "editorBracketPairGuide-background4": {
-    "cssName": "--vscode-editorBracketPairGuide-background4",
-    "themeName": "editorBracketPairGuide.background4"
-  },
-  "editorBracketPairGuide-background5": {
-    "cssName": "--vscode-editorBracketPairGuide-background5",
-    "themeName": "editorBracketPairGuide.background5"
-  },
-  "editorBracketPairGuide-background6": {
-    "cssName": "--vscode-editorBracketPairGuide-background6",
-    "themeName": "editorBracketPairGuide.background6"
-  },
-  "editorCodeLens-foreground": {
-    "cssName": "--vscode-editorCodeLens-foreground",
-    "themeName": "editorCodeLens.foreground"
-  },
-  "editorCommentsWidget-rangeActiveBackground": {
-    "cssName": "--vscode-editorCommentsWidget-rangeActiveBackground",
-    "themeName": "editorCommentsWidget.rangeActiveBackground"
-  },
-  "editorCommentsWidget-rangeBackground": {
-    "cssName": "--vscode-editorCommentsWidget-rangeBackground",
-    "themeName": "editorCommentsWidget.rangeBackground"
-  },
-  "editorCommentsWidget-replyInputBackground": {
-    "cssName": "--vscode-editorCommentsWidget-replyInputBackground",
-    "themeName": "editorCommentsWidget.replyInputBackground"
-  },
-  "editorCommentsWidget-resolvedBorder": {
-    "cssName": "--vscode-editorCommentsWidget-resolvedBorder",
-    "themeName": "editorCommentsWidget.resolvedBorder"
-  },
-  "editorCommentsWidget-unresolvedBorder": {
-    "cssName": "--vscode-editorCommentsWidget-unresolvedBorder",
-    "themeName": "editorCommentsWidget.unresolvedBorder"
-  },
-  "editorCursor-foreground": {
-    "cssName": "--vscode-editorCursor-foreground",
-    "themeName": "editorCursor.foreground"
-  },
-  "editorError-foreground": {
-    "cssName": "--vscode-editorError-foreground",
-    "themeName": "editorError.foreground"
-  },
-  "editorGhostText-foreground": {
-    "cssName": "--vscode-editorGhostText-foreground",
-    "themeName": "editorGhostText.foreground"
-  },
-  "editorGroup-border": {
-    "cssName": "--vscode-editorGroup-border",
-    "themeName": "editorGroup.border"
-  },
-  "editorGroup-dropBackground": {
-    "cssName": "--vscode-editorGroup-dropBackground",
-    "themeName": "editorGroup.dropBackground"
-  },
-  "editorGroup-dropIntoPromptBackground": {
-    "cssName": "--vscode-editorGroup-dropIntoPromptBackground",
-    "themeName": "editorGroup.dropIntoPromptBackground"
-  },
-  "editorGroup-dropIntoPromptForeground": {
-    "cssName": "--vscode-editorGroup-dropIntoPromptForeground",
-    "themeName": "editorGroup.dropIntoPromptForeground"
-  },
-  "editorGroupHeader-noTabsBackground": {
-    "cssName": "--vscode-editorGroupHeader-noTabsBackground",
-    "themeName": "editorGroupHeader.noTabsBackground"
-  },
-  "editorGroupHeader-tabsBackground": {
-    "cssName": "--vscode-editorGroupHeader-tabsBackground",
-    "themeName": "editorGroupHeader.tabsBackground"
-  },
-  "editorGroupHeader-tabsBorder": {
-    "cssName": "--vscode-editorGroupHeader-tabsBorder",
-    "themeName": "editorGroupHeader.tabsBorder"
-  },
-  "editorGutter-addedBackground": {
-    "cssName": "--vscode-editorGutter-addedBackground",
-    "themeName": "editorGutter.addedBackground"
-  },
-  "editorGutter-background": {
-    "cssName": "--vscode-editorGutter-background",
-    "themeName": "editorGutter.background"
-  },
-  "editorGutter-commentGlyphForeground": {
-    "cssName": "--vscode-editorGutter-commentGlyphForeground",
-    "themeName": "editorGutter.commentGlyphForeground"
-  },
-  "editorGutter-commentRangeForeground": {
-    "cssName": "--vscode-editorGutter-commentRangeForeground",
-    "themeName": "editorGutter.commentRangeForeground"
-  },
-  "editorGutter-commentUnresolvedGlyphForeground": {
-    "cssName": "--vscode-editorGutter-commentUnresolvedGlyphForeground",
-    "themeName": "editorGutter.commentUnresolvedGlyphForeground"
-  },
-  "editorGutter-deletedBackground": {
-    "cssName": "--vscode-editorGutter-deletedBackground",
-    "themeName": "editorGutter.deletedBackground"
-  },
-  "editorGutter-foldingControlForeground": {
-    "cssName": "--vscode-editorGutter-foldingControlForeground",
-    "themeName": "editorGutter.foldingControlForeground"
-  },
-  "editorGutter-modifiedBackground": {
-    "cssName": "--vscode-editorGutter-modifiedBackground",
-    "themeName": "editorGutter.modifiedBackground"
-  },
-  "editorHint-foreground": {
-    "cssName": "--vscode-editorHint-foreground",
-    "themeName": "editorHint.foreground"
-  },
-  "editorHoverWidget-background": {
-    "cssName": "--vscode-editorHoverWidget-background",
-    "themeName": "editorHoverWidget.background"
-  },
-  "editorHoverWidget-border": {
-    "cssName": "--vscode-editorHoverWidget-border",
-    "themeName": "editorHoverWidget.border"
-  },
-  "editorHoverWidget-foreground": {
-    "cssName": "--vscode-editorHoverWidget-foreground",
-    "themeName": "editorHoverWidget.foreground"
-  },
-  "editorHoverWidget-highlightForeground": {
-    "cssName": "--vscode-editorHoverWidget-highlightForeground",
-    "themeName": "editorHoverWidget.highlightForeground"
-  },
-  "editorHoverWidget-statusBarBackground": {
-    "cssName": "--vscode-editorHoverWidget-statusBarBackground",
-    "themeName": "editorHoverWidget.statusBarBackground"
-  },
-  "editorIndentGuide-activeBackground": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground",
-    "themeName": "editorIndentGuide.activeBackground"
-  },
-  "editorIndentGuide-activeBackground1": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground1",
-    "themeName": "editorIndentGuide.activeBackground1"
-  },
-  "editorIndentGuide-activeBackground2": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground2",
-    "themeName": "editorIndentGuide.activeBackground2"
-  },
-  "editorIndentGuide-activeBackground3": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground3",
-    "themeName": "editorIndentGuide.activeBackground3"
-  },
-  "editorIndentGuide-activeBackground4": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground4",
-    "themeName": "editorIndentGuide.activeBackground4"
-  },
-  "editorIndentGuide-activeBackground5": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground5",
-    "themeName": "editorIndentGuide.activeBackground5"
-  },
-  "editorIndentGuide-activeBackground6": {
-    "cssName": "--vscode-editorIndentGuide-activeBackground6",
-    "themeName": "editorIndentGuide.activeBackground6"
-  },
-  "editorIndentGuide-background": {
-    "cssName": "--vscode-editorIndentGuide-background",
-    "themeName": "editorIndentGuide.background"
-  },
-  "editorIndentGuide-background1": {
-    "cssName": "--vscode-editorIndentGuide-background1",
-    "themeName": "editorIndentGuide.background1"
-  },
-  "editorIndentGuide-background2": {
-    "cssName": "--vscode-editorIndentGuide-background2",
-    "themeName": "editorIndentGuide.background2"
-  },
-  "editorIndentGuide-background3": {
-    "cssName": "--vscode-editorIndentGuide-background3",
-    "themeName": "editorIndentGuide.background3"
-  },
-  "editorIndentGuide-background4": {
-    "cssName": "--vscode-editorIndentGuide-background4",
-    "themeName": "editorIndentGuide.background4"
-  },
-  "editorIndentGuide-background5": {
-    "cssName": "--vscode-editorIndentGuide-background5",
-    "themeName": "editorIndentGuide.background5"
-  },
-  "editorIndentGuide-background6": {
-    "cssName": "--vscode-editorIndentGuide-background6",
-    "themeName": "editorIndentGuide.background6"
-  },
-  "editorInfo-foreground": {
-    "cssName": "--vscode-editorInfo-foreground",
-    "themeName": "editorInfo.foreground"
-  },
-  "editorInlayHint-background": {
-    "cssName": "--vscode-editorInlayHint-background",
-    "themeName": "editorInlayHint.background"
-  },
-  "editorInlayHint-foreground": {
-    "cssName": "--vscode-editorInlayHint-foreground",
-    "themeName": "editorInlayHint.foreground"
-  },
-  "editorInlayHint-parameterBackground": {
-    "cssName": "--vscode-editorInlayHint-parameterBackground",
-    "themeName": "editorInlayHint.parameterBackground"
-  },
-  "editorInlayHint-parameterForeground": {
-    "cssName": "--vscode-editorInlayHint-parameterForeground",
-    "themeName": "editorInlayHint.parameterForeground"
-  },
-  "editorInlayHint-typeBackground": {
-    "cssName": "--vscode-editorInlayHint-typeBackground",
-    "themeName": "editorInlayHint.typeBackground"
-  },
-  "editorInlayHint-typeForeground": {
-    "cssName": "--vscode-editorInlayHint-typeForeground",
-    "themeName": "editorInlayHint.typeForeground"
-  },
-  "editorLightBulb-foreground": {
-    "cssName": "--vscode-editorLightBulb-foreground",
-    "themeName": "editorLightBulb.foreground"
-  },
-  "editorLightBulbAi-foreground": {
-    "cssName": "--vscode-editorLightBulbAi-foreground",
-    "themeName": "editorLightBulbAi.foreground"
-  },
-  "editorLightBulbAutoFix-foreground": {
-    "cssName": "--vscode-editorLightBulbAutoFix-foreground",
-    "themeName": "editorLightBulbAutoFix.foreground"
-  },
-  "editorLineNumber-activeForeground": {
-    "cssName": "--vscode-editorLineNumber-activeForeground",
-    "themeName": "editorLineNumber.activeForeground"
-  },
-  "editorLineNumber-foreground": {
-    "cssName": "--vscode-editorLineNumber-foreground",
-    "themeName": "editorLineNumber.foreground"
-  },
-  "editorLink-activeForeground": {
-    "cssName": "--vscode-editorLink-activeForeground",
-    "themeName": "editorLink.activeForeground"
-  },
-  "editorMarkerNavigation-background": {
-    "cssName": "--vscode-editorMarkerNavigation-background",
-    "themeName": "editorMarkerNavigation.background"
-  },
-  "editorMarkerNavigationError-background": {
-    "cssName": "--vscode-editorMarkerNavigationError-background",
-    "themeName": "editorMarkerNavigationError.background"
-  },
-  "editorMarkerNavigationError-headerBackground": {
-    "cssName": "--vscode-editorMarkerNavigationError-headerBackground",
-    "themeName": "editorMarkerNavigationError.headerBackground"
-  },
-  "editorMarkerNavigationInfo-background": {
-    "cssName": "--vscode-editorMarkerNavigationInfo-background",
-    "themeName": "editorMarkerNavigationInfo.background"
-  },
-  "editorMarkerNavigationInfo-headerBackground": {
-    "cssName": "--vscode-editorMarkerNavigationInfo-headerBackground",
-    "themeName": "editorMarkerNavigationInfo.headerBackground"
-  },
-  "editorMarkerNavigationWarning-background": {
-    "cssName": "--vscode-editorMarkerNavigationWarning-background",
-    "themeName": "editorMarkerNavigationWarning.background"
-  },
-  "editorMarkerNavigationWarning-headerBackground": {
-    "cssName": "--vscode-editorMarkerNavigationWarning-headerBackground",
-    "themeName": "editorMarkerNavigationWarning.headerBackground"
-  },
-  "editorMultiCursor-primary-foreground": {
-    "cssName": "--vscode-editorMultiCursor-primary-foreground",
-    "themeName": "editorMultiCursor.primary.foreground"
-  },
-  "editorMultiCursor-secondary-foreground": {
-    "cssName": "--vscode-editorMultiCursor-secondary-foreground",
-    "themeName": "editorMultiCursor.secondary.foreground"
-  },
-  "editorOverviewRuler-addedForeground": {
-    "cssName": "--vscode-editorOverviewRuler-addedForeground",
-    "themeName": "editorOverviewRuler.addedForeground"
-  },
-  "editorOverviewRuler-border": {
-    "cssName": "--vscode-editorOverviewRuler-border",
-    "themeName": "editorOverviewRuler.border"
-  },
-  "editorOverviewRuler-bracketMatchForeground": {
-    "cssName": "--vscode-editorOverviewRuler-bracketMatchForeground",
-    "themeName": "editorOverviewRuler.bracketMatchForeground"
-  },
-  "editorOverviewRuler-commentForeground": {
-    "cssName": "--vscode-editorOverviewRuler-commentForeground",
-    "themeName": "editorOverviewRuler.commentForeground"
-  },
-  "editorOverviewRuler-commentUnresolvedForeground": {
-    "cssName": "--vscode-editorOverviewRuler-commentUnresolvedForeground",
-    "themeName": "editorOverviewRuler.commentUnresolvedForeground"
-  },
-  "editorOverviewRuler-commonContentForeground": {
-    "cssName": "--vscode-editorOverviewRuler-commonContentForeground",
-    "themeName": "editorOverviewRuler.commonContentForeground"
-  },
-  "editorOverviewRuler-currentContentForeground": {
-    "cssName": "--vscode-editorOverviewRuler-currentContentForeground",
-    "themeName": "editorOverviewRuler.currentContentForeground"
-  },
-  "editorOverviewRuler-deletedForeground": {
-    "cssName": "--vscode-editorOverviewRuler-deletedForeground",
-    "themeName": "editorOverviewRuler.deletedForeground"
-  },
-  "editorOverviewRuler-errorForeground": {
-    "cssName": "--vscode-editorOverviewRuler-errorForeground",
-    "themeName": "editorOverviewRuler.errorForeground"
-  },
-  "editorOverviewRuler-findMatchForeground": {
-    "cssName": "--vscode-editorOverviewRuler-findMatchForeground",
-    "themeName": "editorOverviewRuler.findMatchForeground"
-  },
-  "editorOverviewRuler-incomingContentForeground": {
-    "cssName": "--vscode-editorOverviewRuler-incomingContentForeground",
-    "themeName": "editorOverviewRuler.incomingContentForeground"
-  },
-  "editorOverviewRuler-infoForeground": {
-    "cssName": "--vscode-editorOverviewRuler-infoForeground",
-    "themeName": "editorOverviewRuler.infoForeground"
-  },
-  "editorOverviewRuler-inlineChatInserted": {
-    "cssName": "--vscode-editorOverviewRuler-inlineChatInserted",
-    "themeName": "editorOverviewRuler.inlineChatInserted"
-  },
-  "editorOverviewRuler-inlineChatRemoved": {
-    "cssName": "--vscode-editorOverviewRuler-inlineChatRemoved",
-    "themeName": "editorOverviewRuler.inlineChatRemoved"
-  },
-  "editorOverviewRuler-modifiedForeground": {
-    "cssName": "--vscode-editorOverviewRuler-modifiedForeground",
-    "themeName": "editorOverviewRuler.modifiedForeground"
-  },
-  "editorOverviewRuler-rangeHighlightForeground": {
-    "cssName": "--vscode-editorOverviewRuler-rangeHighlightForeground",
-    "themeName": "editorOverviewRuler.rangeHighlightForeground"
-  },
-  "editorOverviewRuler-selectionHighlightForeground": {
-    "cssName": "--vscode-editorOverviewRuler-selectionHighlightForeground",
-    "themeName": "editorOverviewRuler.selectionHighlightForeground"
-  },
-  "editorOverviewRuler-warningForeground": {
-    "cssName": "--vscode-editorOverviewRuler-warningForeground",
-    "themeName": "editorOverviewRuler.warningForeground"
-  },
-  "editorOverviewRuler-wordHighlightForeground": {
-    "cssName": "--vscode-editorOverviewRuler-wordHighlightForeground",
-    "themeName": "editorOverviewRuler.wordHighlightForeground"
-  },
-  "editorOverviewRuler-wordHighlightStrongForeground": {
-    "cssName": "--vscode-editorOverviewRuler-wordHighlightStrongForeground",
-    "themeName": "editorOverviewRuler.wordHighlightStrongForeground"
-  },
-  "editorOverviewRuler-wordHighlightTextForeground": {
-    "cssName": "--vscode-editorOverviewRuler-wordHighlightTextForeground",
-    "themeName": "editorOverviewRuler.wordHighlightTextForeground"
-  },
-  "editorPane-background": {
-    "cssName": "--vscode-editorPane-background",
-    "themeName": "editorPane.background"
-  },
-  "editorRuler-foreground": {
-    "cssName": "--vscode-editorRuler-foreground",
-    "themeName": "editorRuler.foreground"
-  },
-  "editorStickyScroll-background": {
-    "cssName": "--vscode-editorStickyScroll-background",
-    "themeName": "editorStickyScroll.background"
-  },
-  "editorStickyScroll-shadow": {
-    "cssName": "--vscode-editorStickyScroll-shadow",
-    "themeName": "editorStickyScroll.shadow"
-  },
-  "editorStickyScrollHover-background": {
-    "cssName": "--vscode-editorStickyScrollHover-background",
-    "themeName": "editorStickyScrollHover.background"
-  },
-  "editorSuggestWidget-background": {
-    "cssName": "--vscode-editorSuggestWidget-background",
-    "themeName": "editorSuggestWidget.background"
-  },
-  "editorSuggestWidget-border": {
-    "cssName": "--vscode-editorSuggestWidget-border",
-    "themeName": "editorSuggestWidget.border"
-  },
-  "editorSuggestWidget-focusHighlightForeground": {
-    "cssName": "--vscode-editorSuggestWidget-focusHighlightForeground",
-    "themeName": "editorSuggestWidget.focusHighlightForeground"
-  },
-  "editorSuggestWidget-foreground": {
-    "cssName": "--vscode-editorSuggestWidget-foreground",
-    "themeName": "editorSuggestWidget.foreground"
-  },
-  "editorSuggestWidget-highlightForeground": {
-    "cssName": "--vscode-editorSuggestWidget-highlightForeground",
-    "themeName": "editorSuggestWidget.highlightForeground"
-  },
-  "editorSuggestWidget-selectedBackground": {
-    "cssName": "--vscode-editorSuggestWidget-selectedBackground",
-    "themeName": "editorSuggestWidget.selectedBackground"
-  },
-  "editorSuggestWidget-selectedForeground": {
-    "cssName": "--vscode-editorSuggestWidget-selectedForeground",
-    "themeName": "editorSuggestWidget.selectedForeground"
-  },
-  "editorSuggestWidget-selectedIconForeground": {
-    "cssName": "--vscode-editorSuggestWidget-selectedIconForeground",
-    "themeName": "editorSuggestWidget.selectedIconForeground"
-  },
-  "editorSuggestWidgetStatus-foreground": {
-    "cssName": "--vscode-editorSuggestWidgetStatus-foreground",
-    "themeName": "editorSuggestWidgetStatus.foreground"
-  },
-  "editorUnicodeHighlight-border": {
-    "cssName": "--vscode-editorUnicodeHighlight-border",
-    "themeName": "editorUnicodeHighlight.border"
-  },
-  "editorUnnecessaryCode-opacity": {
-    "cssName": "--vscode-editorUnnecessaryCode-opacity",
-    "themeName": "editorUnnecessaryCode.opacity"
-  },
-  "editorWarning-foreground": {
-    "cssName": "--vscode-editorWarning-foreground",
-    "themeName": "editorWarning.foreground"
-  },
-  "editorWatermark-foreground": {
-    "cssName": "--vscode-editorWatermark-foreground",
-    "themeName": "editorWatermark.foreground"
-  },
-  "editorWhitespace-foreground": {
-    "cssName": "--vscode-editorWhitespace-foreground",
-    "themeName": "editorWhitespace.foreground"
-  },
-  "editorWidget-background": {
-    "cssName": "--vscode-editorWidget-background",
-    "themeName": "editorWidget.background"
-  },
-  "editorWidget-border": {
-    "cssName": "--vscode-editorWidget-border",
-    "themeName": "editorWidget.border"
-  },
-  "editorWidget-foreground": {
-    "cssName": "--vscode-editorWidget-foreground",
-    "themeName": "editorWidget.foreground"
-  },
-  "errorForeground": {
-    "cssName": "--vscode-errorForeground",
-    "themeName": "errorForeground"
-  },
-  "extensionBadge-remoteBackground": {
-    "cssName": "--vscode-extensionBadge-remoteBackground",
-    "themeName": "extensionBadge.remoteBackground"
-  },
-  "extensionBadge-remoteForeground": {
-    "cssName": "--vscode-extensionBadge-remoteForeground",
-    "themeName": "extensionBadge.remoteForeground"
-  },
-  "extensionButton-background": {
-    "cssName": "--vscode-extensionButton-background",
-    "themeName": "extensionButton.background"
-  },
-  "extensionButton-foreground": {
-    "cssName": "--vscode-extensionButton-foreground",
-    "themeName": "extensionButton.foreground"
-  },
-  "extensionButton-hoverBackground": {
-    "cssName": "--vscode-extensionButton-hoverBackground",
-    "themeName": "extensionButton.hoverBackground"
-  },
-  "extensionButton-prominentBackground": {
-    "cssName": "--vscode-extensionButton-prominentBackground",
-    "themeName": "extensionButton.prominentBackground"
-  },
-  "extensionButton-prominentForeground": {
-    "cssName": "--vscode-extensionButton-prominentForeground",
-    "themeName": "extensionButton.prominentForeground"
-  },
-  "extensionButton-prominentHoverBackground": {
-    "cssName": "--vscode-extensionButton-prominentHoverBackground",
-    "themeName": "extensionButton.prominentHoverBackground"
-  },
-  "extensionButton-separator": {
-    "cssName": "--vscode-extensionButton-separator",
-    "themeName": "extensionButton.separator"
-  },
-  "extensionIcon-preReleaseForeground": {
-    "cssName": "--vscode-extensionIcon-preReleaseForeground",
-    "themeName": "extensionIcon.preReleaseForeground"
-  },
-  "extensionIcon-sponsorForeground": {
-    "cssName": "--vscode-extensionIcon-sponsorForeground",
-    "themeName": "extensionIcon.sponsorForeground"
-  },
-  "extensionIcon-starForeground": {
-    "cssName": "--vscode-extensionIcon-starForeground",
-    "themeName": "extensionIcon.starForeground"
-  },
-  "extensionIcon-verifiedForeground": {
-    "cssName": "--vscode-extensionIcon-verifiedForeground",
-    "themeName": "extensionIcon.verifiedForeground"
-  },
-  "focusBorder": {
-    "cssName": "--vscode-focusBorder",
-    "themeName": "focusBorder"
-  },
-  "foreground": {
-    "cssName": "--vscode-foreground",
-    "themeName": "foreground"
-  },
-  "gitDecoration-addedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-addedResourceForeground",
-    "themeName": "gitDecoration.addedResourceForeground"
-  },
-  "gitDecoration-conflictingResourceForeground": {
-    "cssName": "--vscode-gitDecoration-conflictingResourceForeground",
-    "themeName": "gitDecoration.conflictingResourceForeground"
-  },
-  "gitDecoration-deletedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-deletedResourceForeground",
-    "themeName": "gitDecoration.deletedResourceForeground"
-  },
-  "gitDecoration-ignoredResourceForeground": {
-    "cssName": "--vscode-gitDecoration-ignoredResourceForeground",
-    "themeName": "gitDecoration.ignoredResourceForeground"
-  },
-  "gitDecoration-modifiedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-modifiedResourceForeground",
-    "themeName": "gitDecoration.modifiedResourceForeground"
-  },
-  "gitDecoration-renamedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-renamedResourceForeground",
-    "themeName": "gitDecoration.renamedResourceForeground"
-  },
-  "gitDecoration-stageDeletedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-stageDeletedResourceForeground",
-    "themeName": "gitDecoration.stageDeletedResourceForeground"
-  },
-  "gitDecoration-stageModifiedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-stageModifiedResourceForeground",
-    "themeName": "gitDecoration.stageModifiedResourceForeground"
-  },
-  "gitDecoration-submoduleResourceForeground": {
-    "cssName": "--vscode-gitDecoration-submoduleResourceForeground",
-    "themeName": "gitDecoration.submoduleResourceForeground"
-  },
-  "gitDecoration-untrackedResourceForeground": {
-    "cssName": "--vscode-gitDecoration-untrackedResourceForeground",
-    "themeName": "gitDecoration.untrackedResourceForeground"
-  },
-  "icon-foreground": {
-    "cssName": "--vscode-icon-foreground",
-    "themeName": "icon.foreground"
-  },
-  "inlineChat-background": {
-    "cssName": "--vscode-inlineChat-background",
-    "themeName": "inlineChat.background"
-  },
-  "inlineChat-border": {
-    "cssName": "--vscode-inlineChat-border",
-    "themeName": "inlineChat.border"
-  },
-  "inlineChat-regionHighlight": {
-    "cssName": "--vscode-inlineChat-regionHighlight",
-    "themeName": "inlineChat.regionHighlight"
-  },
-  "inlineChat-shadow": {
-    "cssName": "--vscode-inlineChat-shadow",
-    "themeName": "inlineChat.shadow"
-  },
-  "inlineChatDiff-inserted": {
-    "cssName": "--vscode-inlineChatDiff-inserted",
-    "themeName": "inlineChatDiff.inserted"
-  },
-  "inlineChatDiff-removed": {
-    "cssName": "--vscode-inlineChatDiff-removed",
-    "themeName": "inlineChatDiff.removed"
-  },
-  "inlineChatInput-background": {
-    "cssName": "--vscode-inlineChatInput-background",
-    "themeName": "inlineChatInput.background"
-  },
-  "inlineChatInput-border": {
-    "cssName": "--vscode-inlineChatInput-border",
-    "themeName": "inlineChatInput.border"
-  },
-  "inlineChatInput-focusBorder": {
-    "cssName": "--vscode-inlineChatInput-focusBorder",
-    "themeName": "inlineChatInput.focusBorder"
-  },
-  "inlineChatInput-placeholderForeground": {
-    "cssName": "--vscode-inlineChatInput-placeholderForeground",
-    "themeName": "inlineChatInput.placeholderForeground"
-  },
-  "input-background": {
-    "cssName": "--vscode-input-background",
-    "themeName": "input.background"
-  },
-  "input-border": {
-    "cssName": "--vscode-input-border",
-    "themeName": "input.border"
-  },
-  "input-foreground": {
-    "cssName": "--vscode-input-foreground",
-    "themeName": "input.foreground"
-  },
-  "input-placeholderForeground": {
-    "cssName": "--vscode-input-placeholderForeground",
-    "themeName": "input.placeholderForeground"
-  },
-  "inputOption-activeBackground": {
-    "cssName": "--vscode-inputOption-activeBackground",
-    "themeName": "inputOption.activeBackground"
-  },
-  "inputOption-activeBorder": {
-    "cssName": "--vscode-inputOption-activeBorder",
-    "themeName": "inputOption.activeBorder"
-  },
-  "inputOption-activeForeground": {
-    "cssName": "--vscode-inputOption-activeForeground",
-    "themeName": "inputOption.activeForeground"
-  },
-  "inputOption-hoverBackground": {
-    "cssName": "--vscode-inputOption-hoverBackground",
-    "themeName": "inputOption.hoverBackground"
-  },
-  "inputValidation-errorBackground": {
-    "cssName": "--vscode-inputValidation-errorBackground",
-    "themeName": "inputValidation.errorBackground"
-  },
-  "inputValidation-errorBorder": {
-    "cssName": "--vscode-inputValidation-errorBorder",
-    "themeName": "inputValidation.errorBorder"
-  },
-  "inputValidation-infoBackground": {
-    "cssName": "--vscode-inputValidation-infoBackground",
-    "themeName": "inputValidation.infoBackground"
-  },
-  "inputValidation-infoBorder": {
-    "cssName": "--vscode-inputValidation-infoBorder",
-    "themeName": "inputValidation.infoBorder"
-  },
-  "inputValidation-warningBackground": {
-    "cssName": "--vscode-inputValidation-warningBackground",
-    "themeName": "inputValidation.warningBackground"
-  },
-  "inputValidation-warningBorder": {
-    "cssName": "--vscode-inputValidation-warningBorder",
-    "themeName": "inputValidation.warningBorder"
-  },
-  "interactive-activeCodeBorder": {
-    "cssName": "--vscode-interactive-activeCodeBorder",
-    "themeName": "interactive.activeCodeBorder"
-  },
-  "interactive-inactiveCodeBorder": {
-    "cssName": "--vscode-interactive-inactiveCodeBorder",
-    "themeName": "interactive.inactiveCodeBorder"
-  },
-  "keybindingLabel-background": {
-    "cssName": "--vscode-keybindingLabel-background",
-    "themeName": "keybindingLabel.background"
-  },
-  "keybindingLabel-border": {
-    "cssName": "--vscode-keybindingLabel-border",
-    "themeName": "keybindingLabel.border"
-  },
-  "keybindingLabel-bottomBorder": {
-    "cssName": "--vscode-keybindingLabel-bottomBorder",
-    "themeName": "keybindingLabel.bottomBorder"
-  },
-  "keybindingLabel-foreground": {
-    "cssName": "--vscode-keybindingLabel-foreground",
-    "themeName": "keybindingLabel.foreground"
-  },
-  "keybindingTable-headerBackground": {
-    "cssName": "--vscode-keybindingTable-headerBackground",
-    "themeName": "keybindingTable.headerBackground"
-  },
-  "keybindingTable-rowsBackground": {
-    "cssName": "--vscode-keybindingTable-rowsBackground",
-    "themeName": "keybindingTable.rowsBackground"
-  },
-  "list-activeSelectionBackground": {
-    "cssName": "--vscode-list-activeSelectionBackground",
-    "themeName": "list.activeSelectionBackground"
-  },
-  "list-activeSelectionForeground": {
-    "cssName": "--vscode-list-activeSelectionForeground",
-    "themeName": "list.activeSelectionForeground"
-  },
-  "list-activeSelectionIconForeground": {
-    "cssName": "--vscode-list-activeSelectionIconForeground",
-    "themeName": "list.activeSelectionIconForeground"
-  },
-  "list-deemphasizedForeground": {
-    "cssName": "--vscode-list-deemphasizedForeground",
-    "themeName": "list.deemphasizedForeground"
-  },
-  "list-dropBackground": {
-    "cssName": "--vscode-list-dropBackground",
-    "themeName": "list.dropBackground"
-  },
-  "list-dropBetweenBackground": {
-    "cssName": "--vscode-list-dropBetweenBackground",
-    "themeName": "list.dropBetweenBackground"
-  },
-  "list-errorForeground": {
-    "cssName": "--vscode-list-errorForeground",
-    "themeName": "list.errorForeground"
-  },
-  "list-filterMatchBackground": {
-    "cssName": "--vscode-list-filterMatchBackground",
-    "themeName": "list.filterMatchBackground"
-  },
-  "list-focusHighlightForeground": {
-    "cssName": "--vscode-list-focusHighlightForeground",
-    "themeName": "list.focusHighlightForeground"
-  },
-  "list-focusOutline": {
-    "cssName": "--vscode-list-focusOutline",
-    "themeName": "list.focusOutline"
-  },
-  "list-highlightForeground": {
-    "cssName": "--vscode-list-highlightForeground",
-    "themeName": "list.highlightForeground"
-  },
-  "list-hoverBackground": {
-    "cssName": "--vscode-list-hoverBackground",
-    "themeName": "list.hoverBackground"
-  },
-  "list-inactiveSelectionBackground": {
-    "cssName": "--vscode-list-inactiveSelectionBackground",
-    "themeName": "list.inactiveSelectionBackground"
-  },
-  "list-invalidItemForeground": {
-    "cssName": "--vscode-list-invalidItemForeground",
-    "themeName": "list.invalidItemForeground"
-  },
-  "list-warningForeground": {
-    "cssName": "--vscode-list-warningForeground",
-    "themeName": "list.warningForeground"
-  },
-  "listFilterWidget-background": {
-    "cssName": "--vscode-listFilterWidget-background",
-    "themeName": "listFilterWidget.background"
-  },
-  "listFilterWidget-noMatchesOutline": {
-    "cssName": "--vscode-listFilterWidget-noMatchesOutline",
-    "themeName": "listFilterWidget.noMatchesOutline"
-  },
-  "listFilterWidget-outline": {
-    "cssName": "--vscode-listFilterWidget-outline",
-    "themeName": "listFilterWidget.outline"
-  },
-  "listFilterWidget-shadow": {
-    "cssName": "--vscode-listFilterWidget-shadow",
-    "themeName": "listFilterWidget.shadow"
-  },
-  "menu-background": {
-    "cssName": "--vscode-menu-background",
-    "themeName": "menu.background"
-  },
-  "menu-border": {
-    "cssName": "--vscode-menu-border",
-    "themeName": "menu.border"
-  },
-  "menu-foreground": {
-    "cssName": "--vscode-menu-foreground",
-    "themeName": "menu.foreground"
-  },
-  "menu-selectionBackground": {
-    "cssName": "--vscode-menu-selectionBackground",
-    "themeName": "menu.selectionBackground"
-  },
-  "menu-selectionForeground": {
-    "cssName": "--vscode-menu-selectionForeground",
-    "themeName": "menu.selectionForeground"
-  },
-  "menu-separatorBackground": {
-    "cssName": "--vscode-menu-separatorBackground",
-    "themeName": "menu.separatorBackground"
-  },
-  "menubar-selectionBackground": {
-    "cssName": "--vscode-menubar-selectionBackground",
-    "themeName": "menubar.selectionBackground"
-  },
-  "menubar-selectionForeground": {
-    "cssName": "--vscode-menubar-selectionForeground",
-    "themeName": "menubar.selectionForeground"
-  },
-  "merge-commonContentBackground": {
-    "cssName": "--vscode-merge-commonContentBackground",
-    "themeName": "merge.commonContentBackground"
-  },
-  "merge-commonHeaderBackground": {
-    "cssName": "--vscode-merge-commonHeaderBackground",
-    "themeName": "merge.commonHeaderBackground"
-  },
-  "merge-currentContentBackground": {
-    "cssName": "--vscode-merge-currentContentBackground",
-    "themeName": "merge.currentContentBackground"
-  },
-  "merge-currentHeaderBackground": {
-    "cssName": "--vscode-merge-currentHeaderBackground",
-    "themeName": "merge.currentHeaderBackground"
-  },
-  "merge-incomingContentBackground": {
-    "cssName": "--vscode-merge-incomingContentBackground",
-    "themeName": "merge.incomingContentBackground"
-  },
-  "merge-incomingHeaderBackground": {
-    "cssName": "--vscode-merge-incomingHeaderBackground",
-    "themeName": "merge.incomingHeaderBackground"
-  },
-  "mergeEditor-change-background": {
-    "cssName": "--vscode-mergeEditor-change-background",
-    "themeName": "mergeEditor.change.background"
-  },
-  "mergeEditor-change-word-background": {
-    "cssName": "--vscode-mergeEditor-change-word-background",
-    "themeName": "mergeEditor.change.word.background"
-  },
-  "mergeEditor-changeBase-background": {
-    "cssName": "--vscode-mergeEditor-changeBase-background",
-    "themeName": "mergeEditor.changeBase.background"
-  },
-  "mergeEditor-changeBase-word-background": {
-    "cssName": "--vscode-mergeEditor-changeBase-word-background",
-    "themeName": "mergeEditor.changeBase.word.background"
-  },
-  "mergeEditor-conflict-handled-minimapOverViewRuler": {
-    "cssName": "--vscode-mergeEditor-conflict-handled-minimapOverViewRuler",
-    "themeName": "mergeEditor.conflict.handled.minimapOverViewRuler"
-  },
-  "mergeEditor-conflict-handledFocused-border": {
-    "cssName": "--vscode-mergeEditor-conflict-handledFocused-border",
-    "themeName": "mergeEditor.conflict.handledFocused.border"
-  },
-  "mergeEditor-conflict-handledUnfocused-border": {
-    "cssName": "--vscode-mergeEditor-conflict-handledUnfocused-border",
-    "themeName": "mergeEditor.conflict.handledUnfocused.border"
-  },
-  "mergeEditor-conflict-input1-background": {
-    "cssName": "--vscode-mergeEditor-conflict-input1-background",
-    "themeName": "mergeEditor.conflict.input1.background"
-  },
-  "mergeEditor-conflict-input2-background": {
-    "cssName": "--vscode-mergeEditor-conflict-input2-background",
-    "themeName": "mergeEditor.conflict.input2.background"
-  },
-  "mergeEditor-conflict-unhandled-minimapOverViewRuler": {
-    "cssName": "--vscode-mergeEditor-conflict-unhandled-minimapOverViewRuler",
-    "themeName": "mergeEditor.conflict.unhandled.minimapOverViewRuler"
-  },
-  "mergeEditor-conflict-unhandledFocused-border": {
-    "cssName": "--vscode-mergeEditor-conflict-unhandledFocused-border",
-    "themeName": "mergeEditor.conflict.unhandledFocused.border"
-  },
-  "mergeEditor-conflict-unhandledUnfocused-border": {
-    "cssName": "--vscode-mergeEditor-conflict-unhandledUnfocused-border",
-    "themeName": "mergeEditor.conflict.unhandledUnfocused.border"
-  },
-  "mergeEditor-conflictingLines-background": {
-    "cssName": "--vscode-mergeEditor-conflictingLines-background",
-    "themeName": "mergeEditor.conflictingLines.background"
-  },
-  "minimap-errorHighlight": {
-    "cssName": "--vscode-minimap-errorHighlight",
-    "themeName": "minimap.errorHighlight"
-  },
-  "minimap-findMatchHighlight": {
-    "cssName": "--vscode-minimap-findMatchHighlight",
-    "themeName": "minimap.findMatchHighlight"
-  },
-  "minimap-foregroundOpacity": {
-    "cssName": "--vscode-minimap-foregroundOpacity",
-    "themeName": "minimap.foregroundOpacity"
-  },
-  "minimap-infoHighlight": {
-    "cssName": "--vscode-minimap-infoHighlight",
-    "themeName": "minimap.infoHighlight"
-  },
-  "minimap-selectionHighlight": {
-    "cssName": "--vscode-minimap-selectionHighlight",
-    "themeName": "minimap.selectionHighlight"
-  },
-  "minimap-selectionOccurrenceHighlight": {
-    "cssName": "--vscode-minimap-selectionOccurrenceHighlight",
-    "themeName": "minimap.selectionOccurrenceHighlight"
-  },
-  "minimap-warningHighlight": {
-    "cssName": "--vscode-minimap-warningHighlight",
-    "themeName": "minimap.warningHighlight"
-  },
-  "minimapGutter-addedBackground": {
-    "cssName": "--vscode-minimapGutter-addedBackground",
-    "themeName": "minimapGutter.addedBackground"
-  },
-  "minimapGutter-deletedBackground": {
-    "cssName": "--vscode-minimapGutter-deletedBackground",
-    "themeName": "minimapGutter.deletedBackground"
-  },
-  "minimapGutter-modifiedBackground": {
-    "cssName": "--vscode-minimapGutter-modifiedBackground",
-    "themeName": "minimapGutter.modifiedBackground"
-  },
-  "minimapSlider-activeBackground": {
-    "cssName": "--vscode-minimapSlider-activeBackground",
-    "themeName": "minimapSlider.activeBackground"
-  },
-  "minimapSlider-background": {
-    "cssName": "--vscode-minimapSlider-background",
-    "themeName": "minimapSlider.background"
-  },
-  "minimapSlider-hoverBackground": {
-    "cssName": "--vscode-minimapSlider-hoverBackground",
-    "themeName": "minimapSlider.hoverBackground"
-  },
-  "multiDiffEditor-border": {
-    "cssName": "--vscode-multiDiffEditor-border",
-    "themeName": "multiDiffEditor.border"
-  },
-  "multiDiffEditor-headerBackground": {
-    "cssName": "--vscode-multiDiffEditor-headerBackground",
-    "themeName": "multiDiffEditor.headerBackground"
-  },
-  "notebook-cellBorderColor": {
-    "cssName": "--vscode-notebook-cellBorderColor",
-    "themeName": "notebook.cellBorderColor"
-  },
-  "notebook-cellEditorBackground": {
-    "cssName": "--vscode-notebook-cellEditorBackground",
-    "themeName": "notebook.cellEditorBackground"
-  },
-  "notebook-cellInsertionIndicator": {
-    "cssName": "--vscode-notebook-cellInsertionIndicator",
-    "themeName": "notebook.cellInsertionIndicator"
-  },
-  "notebook-cellStatusBarItemHoverBackground": {
-    "cssName": "--vscode-notebook-cellStatusBarItemHoverBackground",
-    "themeName": "notebook.cellStatusBarItemHoverBackground"
-  },
-  "notebook-cellToolbarSeparator": {
-    "cssName": "--vscode-notebook-cellToolbarSeparator",
-    "themeName": "notebook.cellToolbarSeparator"
-  },
-  "notebook-editorBackground": {
-    "cssName": "--vscode-notebook-editorBackground",
-    "themeName": "notebook.editorBackground"
-  },
-  "notebook-focusedCellBorder": {
-    "cssName": "--vscode-notebook-focusedCellBorder",
-    "themeName": "notebook.focusedCellBorder"
-  },
-  "notebook-focusedEditorBorder": {
-    "cssName": "--vscode-notebook-focusedEditorBorder",
-    "themeName": "notebook.focusedEditorBorder"
-  },
-  "notebook-inactiveFocusedCellBorder": {
-    "cssName": "--vscode-notebook-inactiveFocusedCellBorder",
-    "themeName": "notebook.inactiveFocusedCellBorder"
-  },
-  "notebook-selectedCellBackground": {
-    "cssName": "--vscode-notebook-selectedCellBackground",
-    "themeName": "notebook.selectedCellBackground"
-  },
-  "notebook-selectedCellBorder": {
-    "cssName": "--vscode-notebook-selectedCellBorder",
-    "themeName": "notebook.selectedCellBorder"
-  },
-  "notebook-symbolHighlightBackground": {
-    "cssName": "--vscode-notebook-symbolHighlightBackground",
-    "themeName": "notebook.symbolHighlightBackground"
-  },
-  "notebookEditorOverviewRuler-runningCellForeground": {
-    "cssName": "--vscode-notebookEditorOverviewRuler-runningCellForeground",
-    "themeName": "notebookEditorOverviewRuler.runningCellForeground"
-  },
-  "notebookScrollbarSlider-activeBackground": {
-    "cssName": "--vscode-notebookScrollbarSlider-activeBackground",
-    "themeName": "notebookScrollbarSlider.activeBackground"
-  },
-  "notebookScrollbarSlider-background": {
-    "cssName": "--vscode-notebookScrollbarSlider-background",
-    "themeName": "notebookScrollbarSlider.background"
-  },
-  "notebookScrollbarSlider-hoverBackground": {
-    "cssName": "--vscode-notebookScrollbarSlider-hoverBackground",
-    "themeName": "notebookScrollbarSlider.hoverBackground"
-  },
-  "notebookStatusErrorIcon-foreground": {
-    "cssName": "--vscode-notebookStatusErrorIcon-foreground",
-    "themeName": "notebookStatusErrorIcon.foreground"
-  },
-  "notebookStatusRunningIcon-foreground": {
-    "cssName": "--vscode-notebookStatusRunningIcon-foreground",
-    "themeName": "notebookStatusRunningIcon.foreground"
-  },
-  "notebookStatusSuccessIcon-foreground": {
-    "cssName": "--vscode-notebookStatusSuccessIcon-foreground",
-    "themeName": "notebookStatusSuccessIcon.foreground"
-  },
-  "notificationCenter-border": {
-    "cssName": "--vscode-notificationCenter-border",
-    "themeName": "notificationCenter.border"
-  },
-  "notificationCenterHeader-background": {
-    "cssName": "--vscode-notificationCenterHeader-background",
-    "themeName": "notificationCenterHeader.background"
-  },
-  "notificationCenterHeader-foreground": {
-    "cssName": "--vscode-notificationCenterHeader-foreground",
-    "themeName": "notificationCenterHeader.foreground"
-  },
-  "notificationLink-foreground": {
-    "cssName": "--vscode-notificationLink-foreground",
-    "themeName": "notificationLink.foreground"
-  },
-  "notificationToast-border": {
-    "cssName": "--vscode-notificationToast-border",
-    "themeName": "notificationToast.border"
-  },
-  "notifications-background": {
-    "cssName": "--vscode-notifications-background",
-    "themeName": "notifications.background"
-  },
-  "notifications-border": {
-    "cssName": "--vscode-notifications-border",
-    "themeName": "notifications.border"
-  },
-  "notifications-foreground": {
-    "cssName": "--vscode-notifications-foreground",
-    "themeName": "notifications.foreground"
-  },
-  "notificationsErrorIcon-foreground": {
-    "cssName": "--vscode-notificationsErrorIcon-foreground",
-    "themeName": "notificationsErrorIcon.foreground"
-  },
-  "notificationsInfoIcon-foreground": {
-    "cssName": "--vscode-notificationsInfoIcon-foreground",
-    "themeName": "notificationsInfoIcon.foreground"
-  },
-  "notificationsWarningIcon-foreground": {
-    "cssName": "--vscode-notificationsWarningIcon-foreground",
-    "themeName": "notificationsWarningIcon.foreground"
-  },
-  "panel-background": {
-    "cssName": "--vscode-panel-background",
-    "themeName": "panel.background"
-  },
-  "panel-border": {
-    "cssName": "--vscode-panel-border",
-    "themeName": "panel.border"
-  },
-  "panel-dropBorder": {
-    "cssName": "--vscode-panel-dropBorder",
-    "themeName": "panel.dropBorder"
-  },
-  "panelInput-border": {
-    "cssName": "--vscode-panelInput-border",
-    "themeName": "panelInput.border"
-  },
-  "panelSection-border": {
-    "cssName": "--vscode-panelSection-border",
-    "themeName": "panelSection.border"
-  },
-  "panelSection-dropBackground": {
-    "cssName": "--vscode-panelSection-dropBackground",
-    "themeName": "panelSection.dropBackground"
-  },
-  "panelSectionHeader-background": {
-    "cssName": "--vscode-panelSectionHeader-background",
-    "themeName": "panelSectionHeader.background"
-  },
-  "panelStickyScroll-background": {
-    "cssName": "--vscode-panelStickyScroll-background",
-    "themeName": "panelStickyScroll.background"
-  },
-  "panelStickyScroll-shadow": {
-    "cssName": "--vscode-panelStickyScroll-shadow",
-    "themeName": "panelStickyScroll.shadow"
-  },
-  "panelTitle-activeBorder": {
-    "cssName": "--vscode-panelTitle-activeBorder",
-    "themeName": "panelTitle.activeBorder"
-  },
-  "panelTitle-activeForeground": {
-    "cssName": "--vscode-panelTitle-activeForeground",
-    "themeName": "panelTitle.activeForeground"
-  },
-  "panelTitle-inactiveForeground": {
-    "cssName": "--vscode-panelTitle-inactiveForeground",
-    "themeName": "panelTitle.inactiveForeground"
-  },
-  "peekView-border": {
-    "cssName": "--vscode-peekView-border",
-    "themeName": "peekView.border"
-  },
-  "peekViewEditor-background": {
-    "cssName": "--vscode-peekViewEditor-background",
-    "themeName": "peekViewEditor.background"
-  },
-  "peekViewEditor-matchHighlightBackground": {
-    "cssName": "--vscode-peekViewEditor-matchHighlightBackground",
-    "themeName": "peekViewEditor.matchHighlightBackground"
-  },
-  "peekViewEditorGutter-background": {
-    "cssName": "--vscode-peekViewEditorGutter-background",
-    "themeName": "peekViewEditorGutter.background"
-  },
-  "peekViewEditorStickyScroll-background": {
-    "cssName": "--vscode-peekViewEditorStickyScroll-background",
-    "themeName": "peekViewEditorStickyScroll.background"
-  },
-  "peekViewResult-background": {
-    "cssName": "--vscode-peekViewResult-background",
-    "themeName": "peekViewResult.background"
-  },
-  "peekViewResult-fileForeground": {
-    "cssName": "--vscode-peekViewResult-fileForeground",
-    "themeName": "peekViewResult.fileForeground"
-  },
-  "peekViewResult-lineForeground": {
-    "cssName": "--vscode-peekViewResult-lineForeground",
-    "themeName": "peekViewResult.lineForeground"
-  },
-  "peekViewResult-matchHighlightBackground": {
-    "cssName": "--vscode-peekViewResult-matchHighlightBackground",
-    "themeName": "peekViewResult.matchHighlightBackground"
-  },
-  "peekViewResult-selectionBackground": {
-    "cssName": "--vscode-peekViewResult-selectionBackground",
-    "themeName": "peekViewResult.selectionBackground"
-  },
-  "peekViewResult-selectionForeground": {
-    "cssName": "--vscode-peekViewResult-selectionForeground",
-    "themeName": "peekViewResult.selectionForeground"
-  },
-  "peekViewTitle-background": {
-    "cssName": "--vscode-peekViewTitle-background",
-    "themeName": "peekViewTitle.background"
-  },
-  "peekViewTitleDescription-foreground": {
-    "cssName": "--vscode-peekViewTitleDescription-foreground",
-    "themeName": "peekViewTitleDescription.foreground"
-  },
-  "peekViewTitleLabel-foreground": {
-    "cssName": "--vscode-peekViewTitleLabel-foreground",
-    "themeName": "peekViewTitleLabel.foreground"
-  },
-  "pickerGroup-border": {
-    "cssName": "--vscode-pickerGroup-border",
-    "themeName": "pickerGroup.border"
-  },
-  "pickerGroup-foreground": {
-    "cssName": "--vscode-pickerGroup-foreground",
-    "themeName": "pickerGroup.foreground"
-  },
-  "ports-iconRunningProcessForeground": {
-    "cssName": "--vscode-ports-iconRunningProcessForeground",
-    "themeName": "ports.iconRunningProcessForeground"
-  },
-  "problemsErrorIcon-foreground": {
-    "cssName": "--vscode-problemsErrorIcon-foreground",
-    "themeName": "problemsErrorIcon.foreground"
-  },
-  "problemsInfoIcon-foreground": {
-    "cssName": "--vscode-problemsInfoIcon-foreground",
-    "themeName": "problemsInfoIcon.foreground"
-  },
-  "problemsWarningIcon-foreground": {
-    "cssName": "--vscode-problemsWarningIcon-foreground",
-    "themeName": "problemsWarningIcon.foreground"
-  },
-  "profileBadge-background": {
-    "cssName": "--vscode-profileBadge-background",
-    "themeName": "profileBadge.background"
-  },
-  "profileBadge-foreground": {
-    "cssName": "--vscode-profileBadge-foreground",
-    "themeName": "profileBadge.foreground"
-  },
-  "profiles-sashBorder": {
-    "cssName": "--vscode-profiles-sashBorder",
-    "themeName": "profiles.sashBorder"
-  },
-  "progressBar-background": {
-    "cssName": "--vscode-progressBar-background",
-    "themeName": "progressBar.background"
-  },
-  "quickInput-background": {
-    "cssName": "--vscode-quickInput-background",
-    "themeName": "quickInput.background"
-  },
-  "quickInput-foreground": {
-    "cssName": "--vscode-quickInput-foreground",
-    "themeName": "quickInput.foreground"
-  },
-  "quickInputList-focusBackground": {
-    "cssName": "--vscode-quickInputList-focusBackground",
-    "themeName": "quickInputList.focusBackground"
-  },
-  "quickInputList-focusForeground": {
-    "cssName": "--vscode-quickInputList-focusForeground",
-    "themeName": "quickInputList.focusForeground"
-  },
-  "quickInputList-focusIconForeground": {
-    "cssName": "--vscode-quickInputList-focusIconForeground",
-    "themeName": "quickInputList.focusIconForeground"
-  },
-  "quickInputTitle-background": {
-    "cssName": "--vscode-quickInputTitle-background",
-    "themeName": "quickInputTitle.background"
-  },
-  "sash-hoverBorder": {
-    "cssName": "--vscode-sash-hoverBorder",
-    "themeName": "sash.hoverBorder"
-  },
-  "scm-historyItemAdditionsForeground": {
-    "cssName": "--vscode-scm-historyItemAdditionsForeground",
-    "themeName": "scm.historyItemAdditionsForeground"
-  },
-  "scm-historyItemDeletionsForeground": {
-    "cssName": "--vscode-scm-historyItemDeletionsForeground",
-    "themeName": "scm.historyItemDeletionsForeground"
-  },
-  "scm-historyItemSelectedStatisticsBorder": {
-    "cssName": "--vscode-scm-historyItemSelectedStatisticsBorder",
-    "themeName": "scm.historyItemSelectedStatisticsBorder"
-  },
-  "scm-historyItemStatisticsBorder": {
-    "cssName": "--vscode-scm-historyItemStatisticsBorder",
-    "themeName": "scm.historyItemStatisticsBorder"
-  },
-  "scrollbar-shadow": {
-    "cssName": "--vscode-scrollbar-shadow",
-    "themeName": "scrollbar.shadow"
-  },
-  "scrollbarSlider-activeBackground": {
-    "cssName": "--vscode-scrollbarSlider-activeBackground",
-    "themeName": "scrollbarSlider.activeBackground"
-  },
-  "scrollbarSlider-background": {
-    "cssName": "--vscode-scrollbarSlider-background",
-    "themeName": "scrollbarSlider.background"
-  },
-  "scrollbarSlider-hoverBackground": {
-    "cssName": "--vscode-scrollbarSlider-hoverBackground",
-    "themeName": "scrollbarSlider.hoverBackground"
-  },
-  "search-resultsInfoForeground": {
-    "cssName": "--vscode-search-resultsInfoForeground",
-    "themeName": "search.resultsInfoForeground"
-  },
-  "searchEditor-findMatchBackground": {
-    "cssName": "--vscode-searchEditor-findMatchBackground",
-    "themeName": "searchEditor.findMatchBackground"
-  },
-  "searchEditor-textInputBorder": {
-    "cssName": "--vscode-searchEditor-textInputBorder",
-    "themeName": "searchEditor.textInputBorder"
-  },
-  "settings-checkboxBackground": {
-    "cssName": "--vscode-settings-checkboxBackground",
-    "themeName": "settings.checkboxBackground"
-  },
-  "settings-checkboxBorder": {
-    "cssName": "--vscode-settings-checkboxBorder",
-    "themeName": "settings.checkboxBorder"
-  },
-  "settings-checkboxForeground": {
-    "cssName": "--vscode-settings-checkboxForeground",
-    "themeName": "settings.checkboxForeground"
-  },
-  "settings-dropdownBackground": {
-    "cssName": "--vscode-settings-dropdownBackground",
-    "themeName": "settings.dropdownBackground"
-  },
-  "settings-dropdownBorder": {
-    "cssName": "--vscode-settings-dropdownBorder",
-    "themeName": "settings.dropdownBorder"
-  },
-  "settings-dropdownForeground": {
-    "cssName": "--vscode-settings-dropdownForeground",
-    "themeName": "settings.dropdownForeground"
-  },
-  "settings-dropdownListBorder": {
-    "cssName": "--vscode-settings-dropdownListBorder",
-    "themeName": "settings.dropdownListBorder"
-  },
-  "settings-focusedRowBackground": {
-    "cssName": "--vscode-settings-focusedRowBackground",
-    "themeName": "settings.focusedRowBackground"
-  },
-  "settings-focusedRowBorder": {
-    "cssName": "--vscode-settings-focusedRowBorder",
-    "themeName": "settings.focusedRowBorder"
-  },
-  "settings-headerBorder": {
-    "cssName": "--vscode-settings-headerBorder",
-    "themeName": "settings.headerBorder"
-  },
-  "settings-headerForeground": {
-    "cssName": "--vscode-settings-headerForeground",
-    "themeName": "settings.headerForeground"
-  },
-  "settings-modifiedItemIndicator": {
-    "cssName": "--vscode-settings-modifiedItemIndicator",
-    "themeName": "settings.modifiedItemIndicator"
-  },
-  "settings-numberInputBackground": {
-    "cssName": "--vscode-settings-numberInputBackground",
-    "themeName": "settings.numberInputBackground"
-  },
-  "settings-numberInputBorder": {
-    "cssName": "--vscode-settings-numberInputBorder",
-    "themeName": "settings.numberInputBorder"
-  },
-  "settings-numberInputForeground": {
-    "cssName": "--vscode-settings-numberInputForeground",
-    "themeName": "settings.numberInputForeground"
-  },
-  "settings-rowHoverBackground": {
-    "cssName": "--vscode-settings-rowHoverBackground",
-    "themeName": "settings.rowHoverBackground"
-  },
-  "settings-sashBorder": {
-    "cssName": "--vscode-settings-sashBorder",
-    "themeName": "settings.sashBorder"
-  },
-  "settings-settingsHeaderHoverForeground": {
-    "cssName": "--vscode-settings-settingsHeaderHoverForeground",
-    "themeName": "settings.settingsHeaderHoverForeground"
-  },
-  "settings-textInputBackground": {
-    "cssName": "--vscode-settings-textInputBackground",
-    "themeName": "settings.textInputBackground"
-  },
-  "settings-textInputBorder": {
-    "cssName": "--vscode-settings-textInputBorder",
-    "themeName": "settings.textInputBorder"
-  },
-  "settings-textInputForeground": {
-    "cssName": "--vscode-settings-textInputForeground",
-    "themeName": "settings.textInputForeground"
-  },
-  "sideBar-background": {
-    "cssName": "--vscode-sideBar-background",
-    "themeName": "sideBar.background"
-  },
-  "sideBar-border": {
-    "cssName": "--vscode-sideBar-border",
-    "themeName": "sideBar.border"
-  },
-  "sideBar-dropBackground": {
-    "cssName": "--vscode-sideBar-dropBackground",
-    "themeName": "sideBar.dropBackground"
-  },
-  "sideBar-foreground": {
-    "cssName": "--vscode-sideBar-foreground",
-    "themeName": "sideBar.foreground"
-  },
-  "sideBarActivityBarTop-border": {
-    "cssName": "--vscode-sideBarActivityBarTop-border",
-    "themeName": "sideBarActivityBarTop.border"
-  },
-  "sideBarSectionHeader-background": {
-    "cssName": "--vscode-sideBarSectionHeader-background",
-    "themeName": "sideBarSectionHeader.background"
-  },
-  "sideBarSectionHeader-border": {
-    "cssName": "--vscode-sideBarSectionHeader-border",
-    "themeName": "sideBarSectionHeader.border"
-  },
-  "sideBarSectionHeader-foreground": {
-    "cssName": "--vscode-sideBarSectionHeader-foreground",
-    "themeName": "sideBarSectionHeader.foreground"
-  },
-  "sideBarStickyScroll-background": {
-    "cssName": "--vscode-sideBarStickyScroll-background",
-    "themeName": "sideBarStickyScroll.background"
-  },
-  "sideBarStickyScroll-shadow": {
-    "cssName": "--vscode-sideBarStickyScroll-shadow",
-    "themeName": "sideBarStickyScroll.shadow"
-  },
-  "sideBarTitle-background": {
-    "cssName": "--vscode-sideBarTitle-background",
-    "themeName": "sideBarTitle.background"
-  },
-  "sideBarTitle-foreground": {
-    "cssName": "--vscode-sideBarTitle-foreground",
-    "themeName": "sideBarTitle.foreground"
-  },
-  "sideBySideEditor-horizontalBorder": {
-    "cssName": "--vscode-sideBySideEditor-horizontalBorder",
-    "themeName": "sideBySideEditor.horizontalBorder"
-  },
-  "sideBySideEditor-verticalBorder": {
-    "cssName": "--vscode-sideBySideEditor-verticalBorder",
-    "themeName": "sideBySideEditor.verticalBorder"
-  },
-  "simpleFindWidget-sashBorder": {
-    "cssName": "--vscode-simpleFindWidget-sashBorder",
-    "themeName": "simpleFindWidget.sashBorder"
-  },
-  "statusBar-background": {
-    "cssName": "--vscode-statusBar-background",
-    "themeName": "statusBar.background"
-  },
-  "statusBar-border": {
-    "cssName": "--vscode-statusBar-border",
-    "themeName": "statusBar.border"
-  },
-  "statusBar-debuggingBackground": {
-    "cssName": "--vscode-statusBar-debuggingBackground",
-    "themeName": "statusBar.debuggingBackground"
-  },
-  "statusBar-debuggingBorder": {
-    "cssName": "--vscode-statusBar-debuggingBorder",
-    "themeName": "statusBar.debuggingBorder"
-  },
-  "statusBar-debuggingForeground": {
-    "cssName": "--vscode-statusBar-debuggingForeground",
-    "themeName": "statusBar.debuggingForeground"
-  },
-  "statusBar-focusBorder": {
-    "cssName": "--vscode-statusBar-focusBorder",
-    "themeName": "statusBar.focusBorder"
-  },
-  "statusBar-foreground": {
-    "cssName": "--vscode-statusBar-foreground",
-    "themeName": "statusBar.foreground"
-  },
-  "statusBar-noFolderBackground": {
-    "cssName": "--vscode-statusBar-noFolderBackground",
-    "themeName": "statusBar.noFolderBackground"
-  },
-  "statusBar-noFolderBorder": {
-    "cssName": "--vscode-statusBar-noFolderBorder",
-    "themeName": "statusBar.noFolderBorder"
-  },
-  "statusBar-noFolderForeground": {
-    "cssName": "--vscode-statusBar-noFolderForeground",
-    "themeName": "statusBar.noFolderForeground"
-  },
-  "statusBarItem-activeBackground": {
-    "cssName": "--vscode-statusBarItem-activeBackground",
-    "themeName": "statusBarItem.activeBackground"
-  },
-  "statusBarItem-compactHoverBackground": {
-    "cssName": "--vscode-statusBarItem-compactHoverBackground",
-    "themeName": "statusBarItem.compactHoverBackground"
-  },
-  "statusBarItem-errorBackground": {
-    "cssName": "--vscode-statusBarItem-errorBackground",
-    "themeName": "statusBarItem.errorBackground"
-  },
-  "statusBarItem-errorForeground": {
-    "cssName": "--vscode-statusBarItem-errorForeground",
-    "themeName": "statusBarItem.errorForeground"
-  },
-  "statusBarItem-errorHoverBackground": {
-    "cssName": "--vscode-statusBarItem-errorHoverBackground",
-    "themeName": "statusBarItem.errorHoverBackground"
-  },
-  "statusBarItem-errorHoverForeground": {
-    "cssName": "--vscode-statusBarItem-errorHoverForeground",
-    "themeName": "statusBarItem.errorHoverForeground"
-  },
-  "statusBarItem-focusBorder": {
-    "cssName": "--vscode-statusBarItem-focusBorder",
-    "themeName": "statusBarItem.focusBorder"
-  },
-  "statusBarItem-hoverBackground": {
-    "cssName": "--vscode-statusBarItem-hoverBackground",
-    "themeName": "statusBarItem.hoverBackground"
-  },
-  "statusBarItem-hoverForeground": {
-    "cssName": "--vscode-statusBarItem-hoverForeground",
-    "themeName": "statusBarItem.hoverForeground"
-  },
-  "statusBarItem-offlineBackground": {
-    "cssName": "--vscode-statusBarItem-offlineBackground",
-    "themeName": "statusBarItem.offlineBackground"
-  },
-  "statusBarItem-offlineForeground": {
-    "cssName": "--vscode-statusBarItem-offlineForeground",
-    "themeName": "statusBarItem.offlineForeground"
-  },
-  "statusBarItem-offlineHoverBackground": {
-    "cssName": "--vscode-statusBarItem-offlineHoverBackground",
-    "themeName": "statusBarItem.offlineHoverBackground"
-  },
-  "statusBarItem-offlineHoverForeground": {
-    "cssName": "--vscode-statusBarItem-offlineHoverForeground",
-    "themeName": "statusBarItem.offlineHoverForeground"
-  },
-  "statusBarItem-prominentBackground": {
-    "cssName": "--vscode-statusBarItem-prominentBackground",
-    "themeName": "statusBarItem.prominentBackground"
-  },
-  "statusBarItem-prominentForeground": {
-    "cssName": "--vscode-statusBarItem-prominentForeground",
-    "themeName": "statusBarItem.prominentForeground"
-  },
-  "statusBarItem-prominentHoverBackground": {
-    "cssName": "--vscode-statusBarItem-prominentHoverBackground",
-    "themeName": "statusBarItem.prominentHoverBackground"
-  },
-  "statusBarItem-prominentHoverForeground": {
-    "cssName": "--vscode-statusBarItem-prominentHoverForeground",
-    "themeName": "statusBarItem.prominentHoverForeground"
-  },
-  "statusBarItem-remoteBackground": {
-    "cssName": "--vscode-statusBarItem-remoteBackground",
-    "themeName": "statusBarItem.remoteBackground"
-  },
-  "statusBarItem-remoteForeground": {
-    "cssName": "--vscode-statusBarItem-remoteForeground",
-    "themeName": "statusBarItem.remoteForeground"
-  },
-  "statusBarItem-remoteHoverBackground": {
-    "cssName": "--vscode-statusBarItem-remoteHoverBackground",
-    "themeName": "statusBarItem.remoteHoverBackground"
-  },
-  "statusBarItem-remoteHoverForeground": {
-    "cssName": "--vscode-statusBarItem-remoteHoverForeground",
-    "themeName": "statusBarItem.remoteHoverForeground"
-  },
-  "statusBarItem-warningBackground": {
-    "cssName": "--vscode-statusBarItem-warningBackground",
-    "themeName": "statusBarItem.warningBackground"
-  },
-  "statusBarItem-warningForeground": {
-    "cssName": "--vscode-statusBarItem-warningForeground",
-    "themeName": "statusBarItem.warningForeground"
-  },
-  "statusBarItem-warningHoverBackground": {
-    "cssName": "--vscode-statusBarItem-warningHoverBackground",
-    "themeName": "statusBarItem.warningHoverBackground"
-  },
-  "statusBarItem-warningHoverForeground": {
-    "cssName": "--vscode-statusBarItem-warningHoverForeground",
-    "themeName": "statusBarItem.warningHoverForeground"
-  },
-  "symbolIcon-arrayForeground": {
-    "cssName": "--vscode-symbolIcon-arrayForeground",
-    "themeName": "symbolIcon.arrayForeground"
-  },
-  "symbolIcon-booleanForeground": {
-    "cssName": "--vscode-symbolIcon-booleanForeground",
-    "themeName": "symbolIcon.booleanForeground"
-  },
-  "symbolIcon-classForeground": {
-    "cssName": "--vscode-symbolIcon-classForeground",
-    "themeName": "symbolIcon.classForeground"
-  },
-  "symbolIcon-colorForeground": {
-    "cssName": "--vscode-symbolIcon-colorForeground",
-    "themeName": "symbolIcon.colorForeground"
-  },
-  "symbolIcon-constantForeground": {
-    "cssName": "--vscode-symbolIcon-constantForeground",
-    "themeName": "symbolIcon.constantForeground"
-  },
-  "symbolIcon-constructorForeground": {
-    "cssName": "--vscode-symbolIcon-constructorForeground",
-    "themeName": "symbolIcon.constructorForeground"
-  },
-  "symbolIcon-enumeratorForeground": {
-    "cssName": "--vscode-symbolIcon-enumeratorForeground",
-    "themeName": "symbolIcon.enumeratorForeground"
-  },
-  "symbolIcon-enumeratorMemberForeground": {
-    "cssName": "--vscode-symbolIcon-enumeratorMemberForeground",
-    "themeName": "symbolIcon.enumeratorMemberForeground"
-  },
-  "symbolIcon-eventForeground": {
-    "cssName": "--vscode-symbolIcon-eventForeground",
-    "themeName": "symbolIcon.eventForeground"
-  },
-  "symbolIcon-fieldForeground": {
-    "cssName": "--vscode-symbolIcon-fieldForeground",
-    "themeName": "symbolIcon.fieldForeground"
-  },
-  "symbolIcon-fileForeground": {
-    "cssName": "--vscode-symbolIcon-fileForeground",
-    "themeName": "symbolIcon.fileForeground"
-  },
-  "symbolIcon-folderForeground": {
-    "cssName": "--vscode-symbolIcon-folderForeground",
-    "themeName": "symbolIcon.folderForeground"
-  },
-  "symbolIcon-functionForeground": {
-    "cssName": "--vscode-symbolIcon-functionForeground",
-    "themeName": "symbolIcon.functionForeground"
-  },
-  "symbolIcon-interfaceForeground": {
-    "cssName": "--vscode-symbolIcon-interfaceForeground",
-    "themeName": "symbolIcon.interfaceForeground"
-  },
-  "symbolIcon-keyForeground": {
-    "cssName": "--vscode-symbolIcon-keyForeground",
-    "themeName": "symbolIcon.keyForeground"
-  },
-  "symbolIcon-keywordForeground": {
-    "cssName": "--vscode-symbolIcon-keywordForeground",
-    "themeName": "symbolIcon.keywordForeground"
-  },
-  "symbolIcon-methodForeground": {
-    "cssName": "--vscode-symbolIcon-methodForeground",
-    "themeName": "symbolIcon.methodForeground"
-  },
-  "symbolIcon-moduleForeground": {
-    "cssName": "--vscode-symbolIcon-moduleForeground",
-    "themeName": "symbolIcon.moduleForeground"
-  },
-  "symbolIcon-namespaceForeground": {
-    "cssName": "--vscode-symbolIcon-namespaceForeground",
-    "themeName": "symbolIcon.namespaceForeground"
-  },
-  "symbolIcon-nullForeground": {
-    "cssName": "--vscode-symbolIcon-nullForeground",
-    "themeName": "symbolIcon.nullForeground"
-  },
-  "symbolIcon-numberForeground": {
-    "cssName": "--vscode-symbolIcon-numberForeground",
-    "themeName": "symbolIcon.numberForeground"
-  },
-  "symbolIcon-objectForeground": {
-    "cssName": "--vscode-symbolIcon-objectForeground",
-    "themeName": "symbolIcon.objectForeground"
-  },
-  "symbolIcon-operatorForeground": {
-    "cssName": "--vscode-symbolIcon-operatorForeground",
-    "themeName": "symbolIcon.operatorForeground"
-  },
-  "symbolIcon-packageForeground": {
-    "cssName": "--vscode-symbolIcon-packageForeground",
-    "themeName": "symbolIcon.packageForeground"
-  },
-  "symbolIcon-propertyForeground": {
-    "cssName": "--vscode-symbolIcon-propertyForeground",
-    "themeName": "symbolIcon.propertyForeground"
-  },
-  "symbolIcon-referenceForeground": {
-    "cssName": "--vscode-symbolIcon-referenceForeground",
-    "themeName": "symbolIcon.referenceForeground"
-  },
-  "symbolIcon-snippetForeground": {
-    "cssName": "--vscode-symbolIcon-snippetForeground",
-    "themeName": "symbolIcon.snippetForeground"
-  },
-  "symbolIcon-stringForeground": {
-    "cssName": "--vscode-symbolIcon-stringForeground",
-    "themeName": "symbolIcon.stringForeground"
-  },
-  "symbolIcon-structForeground": {
-    "cssName": "--vscode-symbolIcon-structForeground",
-    "themeName": "symbolIcon.structForeground"
-  },
-  "symbolIcon-textForeground": {
-    "cssName": "--vscode-symbolIcon-textForeground",
-    "themeName": "symbolIcon.textForeground"
-  },
-  "symbolIcon-typeParameterForeground": {
-    "cssName": "--vscode-symbolIcon-typeParameterForeground",
-    "themeName": "symbolIcon.typeParameterForeground"
-  },
-  "symbolIcon-unitForeground": {
-    "cssName": "--vscode-symbolIcon-unitForeground",
-    "themeName": "symbolIcon.unitForeground"
-  },
-  "symbolIcon-variableForeground": {
-    "cssName": "--vscode-symbolIcon-variableForeground",
-    "themeName": "symbolIcon.variableForeground"
-  },
-  "tab-activeBackground": {
-    "cssName": "--vscode-tab-activeBackground",
-    "themeName": "tab.activeBackground"
-  },
-  "tab-activeBorder": {
-    "cssName": "--vscode-tab-activeBorder",
-    "themeName": "tab.activeBorder"
-  },
-  "tab-activeBorderTop": {
-    "cssName": "--vscode-tab-activeBorderTop",
-    "themeName": "tab.activeBorderTop"
-  },
-  "tab-activeForeground": {
-    "cssName": "--vscode-tab-activeForeground",
-    "themeName": "tab.activeForeground"
-  },
-  "tab-activeModifiedBorder": {
-    "cssName": "--vscode-tab-activeModifiedBorder",
-    "themeName": "tab.activeModifiedBorder"
-  },
-  "tab-border": {
-    "cssName": "--vscode-tab-border",
-    "themeName": "tab.border"
-  },
-  "tab-dragAndDropBorder": {
-    "cssName": "--vscode-tab-dragAndDropBorder",
-    "themeName": "tab.dragAndDropBorder"
-  },
-  "tab-hoverBackground": {
-    "cssName": "--vscode-tab-hoverBackground",
-    "themeName": "tab.hoverBackground"
-  },
-  "tab-inactiveBackground": {
-    "cssName": "--vscode-tab-inactiveBackground",
-    "themeName": "tab.inactiveBackground"
-  },
-  "tab-inactiveForeground": {
-    "cssName": "--vscode-tab-inactiveForeground",
-    "themeName": "tab.inactiveForeground"
-  },
-  "tab-inactiveModifiedBorder": {
-    "cssName": "--vscode-tab-inactiveModifiedBorder",
-    "themeName": "tab.inactiveModifiedBorder"
-  },
-  "tab-lastPinnedBorder": {
-    "cssName": "--vscode-tab-lastPinnedBorder",
-    "themeName": "tab.lastPinnedBorder"
-  },
-  "tab-selectedBackground": {
-    "cssName": "--vscode-tab-selectedBackground",
-    "themeName": "tab.selectedBackground"
-  },
-  "tab-selectedBorderTop": {
-    "cssName": "--vscode-tab-selectedBorderTop",
-    "themeName": "tab.selectedBorderTop"
-  },
-  "tab-selectedForeground": {
-    "cssName": "--vscode-tab-selectedForeground",
-    "themeName": "tab.selectedForeground"
-  },
-  "tab-unfocusedActiveBackground": {
-    "cssName": "--vscode-tab-unfocusedActiveBackground",
-    "themeName": "tab.unfocusedActiveBackground"
-  },
-  "tab-unfocusedActiveBorder": {
-    "cssName": "--vscode-tab-unfocusedActiveBorder",
-    "themeName": "tab.unfocusedActiveBorder"
-  },
-  "tab-unfocusedActiveBorderTop": {
-    "cssName": "--vscode-tab-unfocusedActiveBorderTop",
-    "themeName": "tab.unfocusedActiveBorderTop"
-  },
-  "tab-unfocusedActiveForeground": {
-    "cssName": "--vscode-tab-unfocusedActiveForeground",
-    "themeName": "tab.unfocusedActiveForeground"
-  },
-  "tab-unfocusedActiveModifiedBorder": {
-    "cssName": "--vscode-tab-unfocusedActiveModifiedBorder",
-    "themeName": "tab.unfocusedActiveModifiedBorder"
-  },
-  "tab-unfocusedHoverBackground": {
-    "cssName": "--vscode-tab-unfocusedHoverBackground",
-    "themeName": "tab.unfocusedHoverBackground"
-  },
-  "tab-unfocusedInactiveBackground": {
-    "cssName": "--vscode-tab-unfocusedInactiveBackground",
-    "themeName": "tab.unfocusedInactiveBackground"
-  },
-  "tab-unfocusedInactiveForeground": {
-    "cssName": "--vscode-tab-unfocusedInactiveForeground",
-    "themeName": "tab.unfocusedInactiveForeground"
-  },
-  "tab-unfocusedInactiveModifiedBorder": {
-    "cssName": "--vscode-tab-unfocusedInactiveModifiedBorder",
-    "themeName": "tab.unfocusedInactiveModifiedBorder"
-  },
-  "terminal-ansiBlack": {
-    "cssName": "--vscode-terminal-ansiBlack",
-    "themeName": "terminal.ansiBlack"
-  },
-  "terminal-ansiBlue": {
-    "cssName": "--vscode-terminal-ansiBlue",
-    "themeName": "terminal.ansiBlue"
-  },
-  "terminal-ansiBrightBlack": {
-    "cssName": "--vscode-terminal-ansiBrightBlack",
-    "themeName": "terminal.ansiBrightBlack"
-  },
-  "terminal-ansiBrightBlue": {
-    "cssName": "--vscode-terminal-ansiBrightBlue",
-    "themeName": "terminal.ansiBrightBlue"
-  },
-  "terminal-ansiBrightCyan": {
-    "cssName": "--vscode-terminal-ansiBrightCyan",
-    "themeName": "terminal.ansiBrightCyan"
-  },
-  "terminal-ansiBrightGreen": {
-    "cssName": "--vscode-terminal-ansiBrightGreen",
-    "themeName": "terminal.ansiBrightGreen"
-  },
-  "terminal-ansiBrightMagenta": {
-    "cssName": "--vscode-terminal-ansiBrightMagenta",
-    "themeName": "terminal.ansiBrightMagenta"
-  },
-  "terminal-ansiBrightRed": {
-    "cssName": "--vscode-terminal-ansiBrightRed",
-    "themeName": "terminal.ansiBrightRed"
-  },
-  "terminal-ansiBrightWhite": {
-    "cssName": "--vscode-terminal-ansiBrightWhite",
-    "themeName": "terminal.ansiBrightWhite"
-  },
-  "terminal-ansiBrightYellow": {
-    "cssName": "--vscode-terminal-ansiBrightYellow",
-    "themeName": "terminal.ansiBrightYellow"
-  },
-  "terminal-ansiCyan": {
-    "cssName": "--vscode-terminal-ansiCyan",
-    "themeName": "terminal.ansiCyan"
-  },
-  "terminal-ansiGreen": {
-    "cssName": "--vscode-terminal-ansiGreen",
-    "themeName": "terminal.ansiGreen"
-  },
-  "terminal-ansiMagenta": {
-    "cssName": "--vscode-terminal-ansiMagenta",
-    "themeName": "terminal.ansiMagenta"
-  },
-  "terminal-ansiRed": {
-    "cssName": "--vscode-terminal-ansiRed",
-    "themeName": "terminal.ansiRed"
-  },
-  "terminal-ansiWhite": {
-    "cssName": "--vscode-terminal-ansiWhite",
-    "themeName": "terminal.ansiWhite"
-  },
-  "terminal-ansiYellow": {
-    "cssName": "--vscode-terminal-ansiYellow",
-    "themeName": "terminal.ansiYellow"
-  },
-  "terminal-border": {
-    "cssName": "--vscode-terminal-border",
-    "themeName": "terminal.border"
-  },
-  "terminal-dropBackground": {
-    "cssName": "--vscode-terminal-dropBackground",
-    "themeName": "terminal.dropBackground"
-  },
-  "terminal-findMatchBackground": {
-    "cssName": "--vscode-terminal-findMatchBackground",
-    "themeName": "terminal.findMatchBackground"
-  },
-  "terminal-findMatchHighlightBackground": {
-    "cssName": "--vscode-terminal-findMatchHighlightBackground",
-    "themeName": "terminal.findMatchHighlightBackground"
-  },
-  "terminal-foreground": {
-    "cssName": "--vscode-terminal-foreground",
-    "themeName": "terminal.foreground"
-  },
-  "terminal-hoverHighlightBackground": {
-    "cssName": "--vscode-terminal-hoverHighlightBackground",
-    "themeName": "terminal.hoverHighlightBackground"
-  },
-  "terminal-inactiveSelectionBackground": {
-    "cssName": "--vscode-terminal-inactiveSelectionBackground",
-    "themeName": "terminal.inactiveSelectionBackground"
-  },
-  "terminal-selectionBackground": {
-    "cssName": "--vscode-terminal-selectionBackground",
-    "themeName": "terminal.selectionBackground"
-  },
-  "terminal-tab-activeBorder": {
-    "cssName": "--vscode-terminal-tab-activeBorder",
-    "themeName": "terminal.tab.activeBorder"
-  },
-  "terminalCommandDecoration-defaultBackground": {
-    "cssName": "--vscode-terminalCommandDecoration-defaultBackground",
-    "themeName": "terminalCommandDecoration.defaultBackground"
-  },
-  "terminalCommandDecoration-errorBackground": {
-    "cssName": "--vscode-terminalCommandDecoration-errorBackground",
-    "themeName": "terminalCommandDecoration.errorBackground"
-  },
-  "terminalCommandDecoration-successBackground": {
-    "cssName": "--vscode-terminalCommandDecoration-successBackground",
-    "themeName": "terminalCommandDecoration.successBackground"
-  },
-  "terminalOverviewRuler-cursorForeground": {
-    "cssName": "--vscode-terminalOverviewRuler-cursorForeground",
-    "themeName": "terminalOverviewRuler.cursorForeground"
-  },
-  "terminalOverviewRuler-findMatchForeground": {
-    "cssName": "--vscode-terminalOverviewRuler-findMatchForeground",
-    "themeName": "terminalOverviewRuler.findMatchForeground"
-  },
-  "terminalStickyScrollHover-background": {
-    "cssName": "--vscode-terminalStickyScrollHover-background",
-    "themeName": "terminalStickyScrollHover.background"
-  },
-  "testing-coverCountBadgeBackground": {
-    "cssName": "--vscode-testing-coverCountBadgeBackground",
-    "themeName": "testing.coverCountBadgeBackground"
-  },
-  "testing-coverCountBadgeForeground": {
-    "cssName": "--vscode-testing-coverCountBadgeForeground",
-    "themeName": "testing.coverCountBadgeForeground"
-  },
-  "testing-coveredBackground": {
-    "cssName": "--vscode-testing-coveredBackground",
-    "themeName": "testing.coveredBackground"
-  },
-  "testing-coveredBorder": {
-    "cssName": "--vscode-testing-coveredBorder",
-    "themeName": "testing.coveredBorder"
-  },
-  "testing-coveredGutterBackground": {
-    "cssName": "--vscode-testing-coveredGutterBackground",
-    "themeName": "testing.coveredGutterBackground"
-  },
-  "testing-iconErrored": {
-    "cssName": "--vscode-testing-iconErrored",
-    "themeName": "testing.iconErrored"
-  },
-  "testing-iconErrored-retired": {
-    "cssName": "--vscode-testing-iconErrored-retired",
-    "themeName": "testing.iconErrored.retired"
-  },
-  "testing-iconFailed": {
-    "cssName": "--vscode-testing-iconFailed",
-    "themeName": "testing.iconFailed"
-  },
-  "testing-iconFailed-retired": {
-    "cssName": "--vscode-testing-iconFailed-retired",
-    "themeName": "testing.iconFailed.retired"
-  },
-  "testing-iconPassed": {
-    "cssName": "--vscode-testing-iconPassed",
-    "themeName": "testing.iconPassed"
-  },
-  "testing-iconPassed-retired": {
-    "cssName": "--vscode-testing-iconPassed-retired",
-    "themeName": "testing.iconPassed.retired"
-  },
-  "testing-iconQueued": {
-    "cssName": "--vscode-testing-iconQueued",
-    "themeName": "testing.iconQueued"
-  },
-  "testing-iconQueued-retired": {
-    "cssName": "--vscode-testing-iconQueued-retired",
-    "themeName": "testing.iconQueued.retired"
-  },
-  "testing-iconSkipped": {
-    "cssName": "--vscode-testing-iconSkipped",
-    "themeName": "testing.iconSkipped"
-  },
-  "testing-iconSkipped-retired": {
-    "cssName": "--vscode-testing-iconSkipped-retired",
-    "themeName": "testing.iconSkipped.retired"
-  },
-  "testing-iconUnset": {
-    "cssName": "--vscode-testing-iconUnset",
-    "themeName": "testing.iconUnset"
-  },
-  "testing-iconUnset-retired": {
-    "cssName": "--vscode-testing-iconUnset-retired",
-    "themeName": "testing.iconUnset.retired"
-  },
-  "testing-message-error-decorationForeground": {
-    "cssName": "--vscode-testing-message-error-decorationForeground",
-    "themeName": "testing.message.error.decorationForeground"
-  },
-  "testing-message-error-lineBackground": {
-    "cssName": "--vscode-testing-message-error-lineBackground",
-    "themeName": "testing.message.error.lineBackground"
-  },
-  "testing-message-info-decorationForeground": {
-    "cssName": "--vscode-testing-message-info-decorationForeground",
-    "themeName": "testing.message.info.decorationForeground"
-  },
-  "testing-messagePeekBorder": {
-    "cssName": "--vscode-testing-messagePeekBorder",
-    "themeName": "testing.messagePeekBorder"
-  },
-  "testing-messagePeekHeaderBackground": {
-    "cssName": "--vscode-testing-messagePeekHeaderBackground",
-    "themeName": "testing.messagePeekHeaderBackground"
-  },
-  "testing-peekBorder": {
-    "cssName": "--vscode-testing-peekBorder",
-    "themeName": "testing.peekBorder"
-  },
-  "testing-peekHeaderBackground": {
-    "cssName": "--vscode-testing-peekHeaderBackground",
-    "themeName": "testing.peekHeaderBackground"
-  },
-  "testing-runAction": {
-    "cssName": "--vscode-testing-runAction",
-    "themeName": "testing.runAction"
-  },
-  "testing-uncoveredBackground": {
-    "cssName": "--vscode-testing-uncoveredBackground",
-    "themeName": "testing.uncoveredBackground"
-  },
-  "testing-uncoveredBorder": {
-    "cssName": "--vscode-testing-uncoveredBorder",
-    "themeName": "testing.uncoveredBorder"
-  },
-  "testing-uncoveredBranchBackground": {
-    "cssName": "--vscode-testing-uncoveredBranchBackground",
-    "themeName": "testing.uncoveredBranchBackground"
-  },
-  "testing-uncoveredGutterBackground": {
-    "cssName": "--vscode-testing-uncoveredGutterBackground",
-    "themeName": "testing.uncoveredGutterBackground"
-  },
-  "textBlockQuote-background": {
-    "cssName": "--vscode-textBlockQuote-background",
-    "themeName": "textBlockQuote.background"
-  },
-  "textBlockQuote-border": {
-    "cssName": "--vscode-textBlockQuote-border",
-    "themeName": "textBlockQuote.border"
-  },
-  "textCodeBlock-background": {
-    "cssName": "--vscode-textCodeBlock-background",
-    "themeName": "textCodeBlock.background"
-  },
-  "textLink-activeForeground": {
-    "cssName": "--vscode-textLink-activeForeground",
-    "themeName": "textLink.activeForeground"
-  },
-  "textLink-foreground": {
-    "cssName": "--vscode-textLink-foreground",
-    "themeName": "textLink.foreground"
-  },
-  "textPreformat-background": {
-    "cssName": "--vscode-textPreformat-background",
-    "themeName": "textPreformat.background"
-  },
-  "textPreformat-foreground": {
-    "cssName": "--vscode-textPreformat-foreground",
-    "themeName": "textPreformat.foreground"
-  },
-  "textSeparator-foreground": {
-    "cssName": "--vscode-textSeparator-foreground",
-    "themeName": "textSeparator.foreground"
-  },
-  "titleBar-activeBackground": {
-    "cssName": "--vscode-titleBar-activeBackground",
-    "themeName": "titleBar.activeBackground"
-  },
-  "titleBar-activeForeground": {
-    "cssName": "--vscode-titleBar-activeForeground",
-    "themeName": "titleBar.activeForeground"
-  },
-  "titleBar-border": {
-    "cssName": "--vscode-titleBar-border",
-    "themeName": "titleBar.border"
-  },
-  "titleBar-inactiveBackground": {
-    "cssName": "--vscode-titleBar-inactiveBackground",
-    "themeName": "titleBar.inactiveBackground"
-  },
-  "titleBar-inactiveForeground": {
-    "cssName": "--vscode-titleBar-inactiveForeground",
-    "themeName": "titleBar.inactiveForeground"
-  },
-  "toolbar-activeBackground": {
-    "cssName": "--vscode-toolbar-activeBackground",
-    "themeName": "toolbar.activeBackground"
-  },
-  "toolbar-hoverBackground": {
-    "cssName": "--vscode-toolbar-hoverBackground",
-    "themeName": "toolbar.hoverBackground"
-  },
-  "tree-inactiveIndentGuidesStroke": {
-    "cssName": "--vscode-tree-inactiveIndentGuidesStroke",
-    "themeName": "tree.inactiveIndentGuidesStroke"
-  },
-  "tree-indentGuidesStroke": {
-    "cssName": "--vscode-tree-indentGuidesStroke",
-    "themeName": "tree.indentGuidesStroke"
-  },
-  "tree-tableColumnsBorder": {
-    "cssName": "--vscode-tree-tableColumnsBorder",
-    "themeName": "tree.tableColumnsBorder"
-  },
-  "tree-tableOddRowsBackground": {
-    "cssName": "--vscode-tree-tableOddRowsBackground",
-    "themeName": "tree.tableOddRowsBackground"
-  },
-  "walkThrough-embeddedEditorBackground": {
-    "cssName": "--vscode-walkThrough-embeddedEditorBackground",
-    "themeName": "walkThrough.embeddedEditorBackground"
-  },
-  "walkthrough-stepTitle-foreground": {
-    "cssName": "--vscode-walkthrough-stepTitle-foreground",
-    "themeName": "walkthrough.stepTitle.foreground"
-  },
-  "welcomePage-progress-background": {
-    "cssName": "--vscode-welcomePage-progress-background",
-    "themeName": "welcomePage.progress.background"
-  },
-  "welcomePage-progress-foreground": {
-    "cssName": "--vscode-welcomePage-progress-foreground",
-    "themeName": "welcomePage.progress.foreground"
-  },
-  "welcomePage-tileBackground": {
-    "cssName": "--vscode-welcomePage-tileBackground",
-    "themeName": "welcomePage.tileBackground"
-  },
-  "welcomePage-tileBorder": {
-    "cssName": "--vscode-welcomePage-tileBorder",
-    "themeName": "welcomePage.tileBorder"
-  },
-  "welcomePage-tileHoverBackground": {
-    "cssName": "--vscode-welcomePage-tileHoverBackground",
-    "themeName": "welcomePage.tileHoverBackground"
-  },
-  "widget-border": {
-    "cssName": "--vscode-widget-border",
-    "themeName": "widget.border"
-  },
-  "widget-shadow": {
-    "cssName": "--vscode-widget-shadow",
-    "themeName": "widget.shadow"
-  }
+export declare const VscodeColors: {
+    "actionBar-toggledBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-dropBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBar-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarBadge-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarBadge-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarTop-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarTop-dropBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarTop-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "activityBarTop-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "badge-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "badge-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "banner-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "banner-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "banner-iconForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "breadcrumb-activeSelectionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "breadcrumb-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "breadcrumb-focusForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "breadcrumb-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "breadcrumbPicker-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-secondaryBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-secondaryForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-secondaryHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "button-separator": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-blue": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-green": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-lines": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-orange": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-purple": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-red": {
+        cssName: string;
+        themeName: string;
+    };
+    "charts-yellow": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-avatarBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-avatarForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-requestBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-requestBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-slashCommandBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "chat-slashCommandForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "checkbox-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "checkbox-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "checkbox-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "checkbox-selectBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "checkbox-selectBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-debuggingBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-inactiveBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "commandCenter-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "commentsView-resolvedIcon": {
+        cssName: string;
+        themeName: string;
+    };
+    "commentsView-unresolvedIcon": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugConsole-errorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugConsole-infoForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugConsole-sourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugConsole-warningForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugConsoleInputIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugExceptionWidget-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugExceptionWidget-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-breakpointCurrentStackframeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-breakpointDisabledForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-breakpointForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-breakpointStackframeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-breakpointUnverifiedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-continueForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-disconnectForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-pauseForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-restartForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-startForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-stepBackForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-stepIntoForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-stepOutForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-stepOverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugIcon-stopForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-boolean": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-error": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-name": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-number": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-string": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugTokenExpression-value": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugToolBar-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugView-exceptionLabelBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugView-exceptionLabelForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugView-stateLabelBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugView-stateLabelForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "debugView-valueChangedHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    descriptionForeground: {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-diagonalFill": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-insertedLineBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-insertedTextBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-move-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-moveActive-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-removedLineBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-removedTextBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-unchangedCodeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-unchangedRegionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-unchangedRegionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "diffEditor-unchangedRegionShadow": {
+        cssName: string;
+        themeName: string;
+    };
+    disabledForeground: {
+        cssName: string;
+        themeName: string;
+    };
+    "dropdown-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "dropdown-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "dropdown-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "dropdown-listBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-findMatchBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-findMatchHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-findRangeHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-focusedStackFrameHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-foldBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-hoverHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-inactiveSelectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-inlineValuesBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-inlineValuesForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-lineHighlightBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-linkedEditingBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-rangeHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-selectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-selectionHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-snippetFinalTabstopHighlightBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-snippetTabstopHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-stackFrameHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-symbolHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-wordHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-wordHighlightStrongBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editor-wordHighlightTextBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorActiveLineNumber-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground1": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground2": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground3": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground4": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground5": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-foreground6": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketHighlight-unexpectedBracket-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketMatch-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketMatch-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground1": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground2": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground3": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground4": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground5": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-activeBackground6": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background1": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background2": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background3": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background4": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background5": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorBracketPairGuide-background6": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCodeLens-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCommentsWidget-rangeActiveBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCommentsWidget-rangeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCommentsWidget-replyInputBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCommentsWidget-resolvedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCommentsWidget-unresolvedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorCursor-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorError-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGhostText-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroup-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroup-dropBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroup-dropIntoPromptBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroup-dropIntoPromptForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroupHeader-noTabsBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroupHeader-tabsBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGroupHeader-tabsBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-addedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-commentGlyphForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-commentRangeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-commentUnresolvedGlyphForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-deletedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-foldingControlForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorGutter-modifiedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHint-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHoverWidget-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHoverWidget-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHoverWidget-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHoverWidget-highlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorHoverWidget-statusBarBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground1": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground2": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground3": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground4": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground5": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-activeBackground6": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background1": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background2": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background3": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background4": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background5": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorIndentGuide-background6": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInfo-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-parameterBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-parameterForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-typeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorInlayHint-typeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLightBulb-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLightBulbAi-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLightBulbAutoFix-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLineNumber-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLineNumber-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorLink-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigation-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationError-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationError-headerBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationInfo-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationInfo-headerBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationWarning-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMarkerNavigationWarning-headerBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMultiCursor-primary-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorMultiCursor-secondary-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-addedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-bracketMatchForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-commentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-commentUnresolvedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-commonContentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-currentContentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-deletedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-errorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-findMatchForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-incomingContentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-infoForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-inlineChatInserted": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-inlineChatRemoved": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-modifiedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-rangeHighlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-selectionHighlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-warningForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-wordHighlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-wordHighlightStrongForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorOverviewRuler-wordHighlightTextForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorPane-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorRuler-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorStickyScroll-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorStickyScroll-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorStickyScrollHover-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-focusHighlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-highlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-selectedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-selectedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidget-selectedIconForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorSuggestWidgetStatus-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorUnicodeHighlight-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorUnnecessaryCode-opacity": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWarning-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWatermark-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWhitespace-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWidget-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWidget-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "editorWidget-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    errorForeground: {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionBadge-remoteBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionBadge-remoteForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-prominentBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-prominentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-prominentHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionButton-separator": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionIcon-preReleaseForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionIcon-sponsorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionIcon-starForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "extensionIcon-verifiedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    focusBorder: {
+        cssName: string;
+        themeName: string;
+    };
+    foreground: {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-addedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-conflictingResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-deletedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-ignoredResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-modifiedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-renamedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-stageDeletedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-stageModifiedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-submoduleResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "gitDecoration-untrackedResourceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "icon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChat-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChat-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChat-regionHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChat-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatDiff-inserted": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatDiff-removed": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatInput-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatInput-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatInput-focusBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "inlineChatInput-placeholderForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "input-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "input-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "input-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "input-placeholderForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputOption-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputOption-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputOption-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputOption-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-errorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-errorBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-infoBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-infoBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-warningBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "inputValidation-warningBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "interactive-activeCodeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "interactive-inactiveCodeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingLabel-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingLabel-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingLabel-bottomBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingLabel-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingTable-headerBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "keybindingTable-rowsBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-activeSelectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-activeSelectionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-activeSelectionIconForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-deemphasizedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-dropBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-dropBetweenBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-errorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-filterMatchBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-focusHighlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-focusOutline": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-highlightForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-inactiveSelectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-invalidItemForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "list-warningForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "listFilterWidget-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "listFilterWidget-noMatchesOutline": {
+        cssName: string;
+        themeName: string;
+    };
+    "listFilterWidget-outline": {
+        cssName: string;
+        themeName: string;
+    };
+    "listFilterWidget-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-selectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-selectionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "menu-separatorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "menubar-selectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "menubar-selectionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-commonContentBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-commonHeaderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-currentContentBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-currentHeaderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-incomingContentBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "merge-incomingHeaderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-change-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-change-word-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-changeBase-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-changeBase-word-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-handled-minimapOverViewRuler": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-handledFocused-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-handledUnfocused-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-input1-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-input2-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-unhandled-minimapOverViewRuler": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-unhandledFocused-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflict-unhandledUnfocused-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "mergeEditor-conflictingLines-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-errorHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-findMatchHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-foregroundOpacity": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-infoHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-selectionHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-selectionOccurrenceHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimap-warningHighlight": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapGutter-addedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapGutter-deletedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapGutter-modifiedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapSlider-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapSlider-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "minimapSlider-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "multiDiffEditor-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "multiDiffEditor-headerBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-cellBorderColor": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-cellEditorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-cellInsertionIndicator": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-cellStatusBarItemHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-cellToolbarSeparator": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-editorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-focusedCellBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-focusedEditorBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-inactiveFocusedCellBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-selectedCellBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-selectedCellBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebook-symbolHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookEditorOverviewRuler-runningCellForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookScrollbarSlider-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookScrollbarSlider-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookScrollbarSlider-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookStatusErrorIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookStatusRunningIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notebookStatusSuccessIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationCenter-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationCenterHeader-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationCenterHeader-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationLink-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationToast-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "notifications-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "notifications-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "notifications-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationsErrorIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationsInfoIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "notificationsWarningIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "panel-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "panel-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "panel-dropBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelInput-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelSection-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelSection-dropBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelSectionHeader-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelStickyScroll-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelStickyScroll-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelTitle-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelTitle-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "panelTitle-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekView-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewEditor-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewEditor-matchHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewEditorGutter-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewEditorStickyScroll-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-fileForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-lineForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-matchHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-selectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewResult-selectionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewTitle-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewTitleDescription-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "peekViewTitleLabel-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "pickerGroup-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "pickerGroup-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "ports-iconRunningProcessForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "problemsErrorIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "problemsInfoIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "problemsWarningIcon-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "profileBadge-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "profileBadge-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "profiles-sashBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "progressBar-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInput-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInput-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInputList-focusBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInputList-focusForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInputList-focusIconForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "quickInputTitle-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "sash-hoverBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "scm-historyItemAdditionsForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "scm-historyItemDeletionsForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "scm-historyItemSelectedStatisticsBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "scm-historyItemStatisticsBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "scrollbar-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "scrollbarSlider-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "scrollbarSlider-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "scrollbarSlider-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "search-resultsInfoForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "searchEditor-findMatchBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "searchEditor-textInputBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-checkboxBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-checkboxBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-checkboxForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-dropdownBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-dropdownBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-dropdownForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-dropdownListBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-focusedRowBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-focusedRowBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-headerBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-headerForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-modifiedItemIndicator": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-numberInputBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-numberInputBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-numberInputForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-rowHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-sashBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-settingsHeaderHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-textInputBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-textInputBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "settings-textInputForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBar-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBar-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBar-dropBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBar-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarActivityBarTop-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarSectionHeader-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarSectionHeader-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarSectionHeader-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarStickyScroll-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarStickyScroll-shadow": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarTitle-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBarTitle-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBySideEditor-horizontalBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "sideBySideEditor-verticalBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "simpleFindWidget-sashBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-debuggingBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-debuggingBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-debuggingForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-focusBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-noFolderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-noFolderBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBar-noFolderForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-compactHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-errorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-errorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-errorHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-errorHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-focusBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-hoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-offlineBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-offlineForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-offlineHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-offlineHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-prominentBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-prominentForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-prominentHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-prominentHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-remoteBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-remoteForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-remoteHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-remoteHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-warningBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-warningForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-warningHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "statusBarItem-warningHoverForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-arrayForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-booleanForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-classForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-colorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-constantForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-constructorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-enumeratorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-enumeratorMemberForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-eventForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-fieldForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-fileForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-folderForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-functionForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-interfaceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-keyForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-keywordForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-methodForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-moduleForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-namespaceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-nullForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-numberForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-objectForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-operatorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-packageForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-propertyForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-referenceForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-snippetForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-stringForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-structForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-textForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-typeParameterForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-unitForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "symbolIcon-variableForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-activeBorderTop": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-activeModifiedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-dragAndDropBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-inactiveBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-inactiveModifiedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-lastPinnedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-selectedBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-selectedBorderTop": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-selectedForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedActiveBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedActiveBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedActiveBorderTop": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedActiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedActiveModifiedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedInactiveBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedInactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tab-unfocusedInactiveModifiedBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBlack": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBlue": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightBlack": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightBlue": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightCyan": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightGreen": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightMagenta": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightRed": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightWhite": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiBrightYellow": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiCyan": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiGreen": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiMagenta": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiRed": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiWhite": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-ansiYellow": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-dropBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-findMatchBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-findMatchHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-hoverHighlightBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-inactiveSelectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-selectionBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminal-tab-activeBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalCommandDecoration-defaultBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalCommandDecoration-errorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalCommandDecoration-successBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalOverviewRuler-cursorForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalOverviewRuler-findMatchForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "terminalStickyScrollHover-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-coverCountBadgeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-coverCountBadgeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-coveredBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-coveredBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-coveredGutterBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconErrored": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconErrored-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconFailed": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconFailed-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconPassed": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconPassed-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconQueued": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconQueued-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconSkipped": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconSkipped-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconUnset": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-iconUnset-retired": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-message-error-decorationForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-message-error-lineBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-message-info-decorationForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-messagePeekBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-messagePeekHeaderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-peekBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-peekHeaderBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-runAction": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-uncoveredBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-uncoveredBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-uncoveredBranchBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "testing-uncoveredGutterBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "textBlockQuote-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "textBlockQuote-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "textCodeBlock-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "textLink-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "textLink-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "textPreformat-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "textPreformat-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "textSeparator-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "titleBar-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "titleBar-activeForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "titleBar-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "titleBar-inactiveBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "titleBar-inactiveForeground": {
+        cssName: string;
+        themeName: string;
+    };
+    "toolbar-activeBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "toolbar-hoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "tree-inactiveIndentGuidesStroke": {
+        cssName: string;
+        themeName: string;
+    };
+    "tree-indentGuidesStroke": {
+        cssName: string;
+        themeName: string;
+    };
+    "tree-tableColumnsBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "tree-tableOddRowsBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "walkThrough-embeddedEditorBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "walkthrough-stepTitle-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "welcomePage-progress-background": {
+        cssName: string;
+        themeName: string;
+    };
+    "welcomePage-progress-foreground": {
+        cssName: string;
+        themeName: string;
+    };
+    "welcomePage-tileBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "welcomePage-tileBorder": {
+        cssName: string;
+        themeName: string;
+    };
+    "welcomePage-tileHoverBackground": {
+        cssName: string;
+        themeName: string;
+    };
+    "widget-border": {
+        cssName: string;
+        themeName: string;
+    };
+    "widget-shadow": {
+        cssName: string;
+        themeName: string;
+    };
 };
-
 /**
  * Check if a given string satisfies the criteria to be a CSS variable name.
  *
@@ -2773,15 +2771,10 @@ export declare const VscodeColors = {
  * so DO NOT use this in uncontrolled environments.
  */
 export declare function isCSSVariable(str: string): boolean;
-
 /**
  * Get the CSS expression using the given variableName with optional fallback variables or constants.
- * 
- * Internally uses `isCSSVariable` to check if a given value is a CSS variable or not.
  *
  * @example
- * // returns "red"
- * createCSSVariable("red")
  * // returns "var(--custom-var)"
  * createCSSVariable("--custom-var")
  * // returns "var(--custom-var, red)"
